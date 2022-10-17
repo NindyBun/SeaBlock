@@ -1,0 +1,17 @@
+/.curseclient
+/config
+/crash-reports
+/defaultconfigs
+/downloads
+/imgui.ini
+/minecraftinstance.json
+/mods
+/options.txt
+/resourcepacks
+/saves
+/schematics
+/screenshots
+/simple-rpc
+/skyblock_exports
+/usercache.json
+/usernamecache.json
