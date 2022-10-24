@@ -1,0 +1,6 @@
+#840F59 minecraft:bedrock
+#7C100D immersiveengineering:concrete
+#01C1B0 immersiveengineering:concrete_tile
+#73CA69 create:creative_motor
+#80497A minecraft:dirt
+#D65F53 createautomated:ore_extractor

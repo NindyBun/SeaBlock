@@ -1,0 +1,14 @@
+<tooltype:axe>
+<tooltype:drill>
+<tooltype:excavator>
+<tooltype:hammer>
+<tooltype:hoe>
+<tooltype:immersiveengineering_cutter>
+<tooltype:immersiveengineering_hammer>
+<tooltype:immersiveengineering_screwdriver>
+<tooltype:knife>
+<tooltype:pickaxe>
+<tooltype:saw>
+<tooltype:shovel>
+<tooltype:sickle>
+<tooltype:wrench>

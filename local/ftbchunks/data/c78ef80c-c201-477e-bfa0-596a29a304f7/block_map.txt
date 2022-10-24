@@ -1,0 +1,2 @@
+#840F59 minecraft:bedrock
+#80497A minecraft:dirt

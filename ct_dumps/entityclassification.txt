@@ -1,0 +1,6 @@
+<entityclassification:ambient>
+<entityclassification:creature>
+<entityclassification:misc>
+<entityclassification:monster>
+<entityclassification:water_ambient>
+<entityclassification:water_creature>

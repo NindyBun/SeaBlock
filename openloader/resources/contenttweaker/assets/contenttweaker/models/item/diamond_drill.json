@@ -1,3 +1,7 @@
 {
-    "parent" : "contenttweaker:item/diamond_drill"
-}
+    "parent": "minecraft:item/handheld",
+    "textures":
+    {
+      "layer0": "contenttweaker:item/diamond_drill"
+    }
+  }

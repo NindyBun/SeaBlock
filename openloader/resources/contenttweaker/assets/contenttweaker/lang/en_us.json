@@ -1,3 +1,27 @@
 {
-    "item.contenttweaker.diamond_drill": "Diamond Drill"
+    "item.contenttweaker.diamond_drill": "Diamond Drill",
+    "item.contenttweaker.steel_drill": "Steel Drill",
+    "item.contenttweaker.iron_drill": "Iron Drill",
+
+    "item.contenttweaker.iron_crystal": "Iron Crystal",
+    "item.contenttweaker.iron_shard": "Iron Shard",
+    "item.contenttweaker.iron_fragment": "Iron Fragment",
+    "item.contenttweaker.iron_dirty_dust": "Dirty Iron Dust",
+
+    "item.contenttweaker.gold_crystal": "Gold Crystal",
+    "item.contenttweaker.gold_shard": "Gold Shard",
+    "item.contenttweaker.gold_fragment": "Gold Fragment",
+    "item.contenttweaker.gold_dirty_dust": "Dirty Gold Dust",
+
+    "item.contenttweaker.copper_crystal": "Copper Crystal",
+    "item.contenttweaker.copper_shard": "Copper Shard",
+    "item.contenttweaker.copper_dirty_dust": "Dirty Copper Dust",
+
+    "item.contenttweaker.lead_crystal": "Lead Crystal",
+    "item.contenttweaker.lead_shard": "Lead Shard",
+    "item.contenttweaker.lead_dirty_dust": "Dirty Lead Dust",
+
+    "item.contenttweaker.tin_crystal": "Tin Crystal",
+    "item.contenttweaker.tin_shard": "Tin Shard",
+    "item.contenttweaker.tin_dirty_dust": "Dirty Tin Dust"
 }
