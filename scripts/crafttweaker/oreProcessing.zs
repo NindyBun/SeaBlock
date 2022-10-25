@@ -207,7 +207,7 @@ for i, ore in ores{
     }else{
         <recipetype:thermal:smelter>.removeRecipe(ingots[i]);
     } */
-    <recipetype:thermal:smelter>.removeRecipe(ingots[i]);
+    //<recipetype:thermal:smelter>.removeRecipe(ingots[i]);
 
     // Chunk/DirtyDust -> Magma Crucible -> Blast Chiller -> 2 Ingots
     <recipetype:thermal:chiller>.addRecipe("recipe.chiller."+i, ingots[i], <item:thermal:chiller_ingot_cast>, molten_ingots[i]*144, powChiller);
