@@ -52,6 +52,7 @@ var ores as string[] = [
 mods.jei.JEI.hideRegex(".*ore.*");
 mods.jei.JEI.hideRegex(".*crushed.*");
 
+<recipetype:mekanism:crushing>.removeByName("mekanism:processing/netherite/dust/from_ingot");
 <recipetype:create:splashing>.removeByName("create:splashing/crushed_brass");
 <recipetype:create:mixing>.removeByName("create:mixing/brass_ingot");
 <recipetype:create:mixing>.removeByName("create:mixing/crushed_brass");
@@ -117,14 +118,17 @@ for ore in ores {
     if ("create:milling/"+ore+"_ore" in listOfRecipes) { <recipetype:create:milling>.removeByName("create:milling/"+ore+"_ore"); }
     if ("createautomated:mixing/"+ore+"_ingot_from_pieces" in listOfRecipes) { <recipetype:create:mixing>.removeByName("createautomated:mixing/"+ore+"_ingot_from_pieces"); }
     if ("createautomated:pressing/"+ore+"_ingot" in listOfRecipes) { <recipetype:create:pressing>.removeByName("createautomated:pressing/"+ore+"_ingot"); }
-    if ("create:pressing/"+ore+"_ingot" in listOfRecipes) { <recipetype:create:pressing>.removeByName("create:pressing/"+ore+"_ingot"); }
+    if ("createa:pressing/"+ore+"_ingot" in listOfRecipes) { <recipetype:create:pressing>.removeByName("create:pressing/"+ore+"_ingot"); }
+    if ("createaddition:pressing/"+ore+"_ingot" in listOfRecipes) { <recipetype:create:pressing>.removeByName("createaddition:pressing/"+ore+"_ingot"); }
     if ("createaddition:rolling/"+ore+"_plate" in listOfRecipes) { <recipetype:createaddition:rolling>.removeByName("createaddition:rolling/"+ore+"_plate"); }
     if ("createaddition:compat/immersiveengineering/"+ore in listOfRecipes) { <recipetype:create:mixing>.removeByName("createaddition:compat/immersiveengineering/"+ore); }
 
+    if ("thermal:machine/pulverizer/pulverizer_"+ore in listOfRecipes) { <recipetype:thermal:pulverizer>.removeByName("thermal:machine/pulverizer/pulverizer_"+ore); }
     if ("thermal:machine/pulverizer/pulverizer_"+ore+"_ingot_to_dust" in listOfRecipes) { <recipetype:thermal:pulverizer>.removeByName("thermal:machine/pulverizer/pulverizer_"+ore+"_ingot_to_dust"); }
     if ("thermal:machine/pulverizer/pulverizer_"+ore+"_ore" in listOfRecipes) { <recipetype:thermal:pulverizer>.removeByName("thermal:machine/pulverizer/pulverizer_"+ore+"_ore"); }
     if ("thermal:machine/pulverizer/pulverizer_ie_"+ore+"_ore" in listOfRecipes) { <recipetype:thermal:pulverizer>.removeByName("thermal:machine/pulverizer/pulverizer_ie_"+ore+"_ore"); }
     if ("thermal:compat/immersiveengineering/pulverizer_ie_"+ore+"_ore" in listOfRecipes) { <recipetype:thermal:pulverizer>.removeByName("thermal:compat/immersiveengineering/pulverizer_ie_"+ore+"_ore"); }
+    if ("thermal:compat/immersiveengineering/press_ie_"+ore+"_ingot_to_plate" in listOfRecipes) { <recipetype:thermal:press>.removeByName("thermal:compat/immersiveengineering/press_ie_"+ore+"_ingot_to_plate"); }
     if ("thermal:compat/create/pulverizer_create_"+ore+"_ore" in listOfRecipes) { <recipetype:thermal:pulverizer>.removeByName("thermal:compat/create/pulverizer_create_"+ore+"_ore"); }
     if ("thermal:machine/press/press_"+ore+"_ingot_to_gear" in listOfRecipes) { <recipetype:thermal:press>.removeByName("thermal:machine/press/press_"+ore+"_ingot_to_gear"); }
     if ("thermal:machine/press/press_"+ore+"_ingot_to_plate" in listOfRecipes) { <recipetype:thermal:press>.removeByName("thermal:machine/press/press_"+ore+"_ingot_to_plate"); }
@@ -133,6 +137,8 @@ for ore in ores {
     if ("thermal:machine/smelter/smelter_"+ore+"_dust" in listOfRecipes) { <recipetype:thermal:smelter>.removeByName("thermal:machine/smelter/smelter_"+ore+"_dust"); }
     if ("thermal:compat/mekanism/smelter_mek_"+ore+"_dust" in listOfRecipes) { <recipetype:thermal:smelter>.removeByName("thermal:compat/mekanism/smelter_mek_"+ore+"_dust"); }
     if ("thermal:machine/smelter/smelter_alloy_"+ore in listOfRecipes) { <recipetype:thermal:smelter>.removeByName("thermal:machine/smelter/smelter_alloy_"+ore); }
+    if ("thermal:compat/mekanism/pulverizer_mek_"+ore+"_ore" in listOfRecipes) { <recipetype:thermal:pulverizer>.removeByName("thermal:compat/mekanism/pulverizer_mek_"+ore+"_ore"); }
+    if ("thermal:compat/mekanism/smelter_mek_"+ore+"_ore" in listOfRecipes) { <recipetype:thermal:smelter>.removeByName("thermal:compat/mekanism/smelter_mek_"+ore+"_ore"); }
     if ("thermal:compat/create/smelter_create_"+ore+"_ore" in listOfRecipes) { <recipetype:thermal:smelter>.removeByName("thermal:compat/create/smelter_create_"+ore+"_ore"); }
 
     if ("mekanism:processing/"+ore+"/shard/from_ore" in listOfRecipes) { <recipetype:mekanism:injecting>.removeByName("mekanism:processing/"+ore+"/shard/from_ore"); }

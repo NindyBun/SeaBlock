@@ -23,7 +23,15 @@ var ores as string[] = [
 
     "tin_crystal",
     "tin_shard",
-    "tin_dirty_dust"
+    "tin_dirty_dust",
+
+    "osmium_crystal",
+    "osmium_shard",
+    "osmium_dirty_dust",
+
+    "uranium_crystal",
+    "uranium_shard",
+    "uranium_dirty_dust",
 ];
 
 for name in ores {

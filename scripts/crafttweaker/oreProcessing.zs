@@ -13,6 +13,8 @@ var powArcFurnace = 5000;
 var timeArcFurnace = 50;
 
 var ores as IItemStack[] = [
+    <item:emendatusenigmatica:uranium_chunk>,
+    <item:emendatusenigmatica:osmium_chunk>,
     <item:emendatusenigmatica:zinc_chunk>,
     <item:emendatusenigmatica:tin_chunk>,
     <item:emendatusenigmatica:nickel_chunk>,
@@ -25,6 +27,8 @@ var ores as IItemStack[] = [
 ];
 
 var ingots as IItemStack[] = [
+    <item:emendatusenigmatica:uranium_ingot>,
+    <item:emendatusenigmatica:osmium_ingot>,
     <item:emendatusenigmatica:zinc_ingot>,
     <item:emendatusenigmatica:tin_ingot>,
     <item:emendatusenigmatica:nickel_ingot>,
@@ -37,6 +41,8 @@ var ingots as IItemStack[] = [
 ];
 
 var molten_ingots as IFluidStack[] = [
+    <fluid:emendatusenigmatica:molten_uranium>,
+    <fluid:emendatusenigmatica:molten_osmium>,
     <fluid:emendatusenigmatica:molten_zinc>,
     <fluid:emendatusenigmatica:molten_tin>,
     <fluid:emendatusenigmatica:molten_nickel>,
@@ -49,6 +55,8 @@ var molten_ingots as IFluidStack[] = [
 ];
 
 var dirtySlurrys as mods.mekanism.api.chemical.Slurry[] = [
+    <slurry:mekanism:dirty_uranium>,
+    <slurry:mekanism:dirty_osmium>,
     <slurry:emendatusenigmatica:dirty_zinc>,
     <slurry:mekanism:dirty_tin>,
     <slurry:emendatusenigmatica:dirty_nickel>,
@@ -61,6 +69,8 @@ var dirtySlurrys as mods.mekanism.api.chemical.Slurry[] = [
 ];
 
 var cleanSlurrys as mods.mekanism.api.chemical.Slurry[] = [
+    <slurry:mekanism:clean_uranium>,
+    <slurry:mekanism:clean_osmium>,
     <slurry:emendatusenigmatica:clean_zinc>,
     <slurry:mekanism:clean_tin>,
     <slurry:emendatusenigmatica:clean_nickel>,
@@ -88,6 +98,8 @@ var remove_dusts as IItemStack[] = [
 ];
 
 var dusts as IItemStack[] = [
+    <item:contenttweaker:uranium_dirty_dust>,
+    <item:contenttweaker:osmium_dirty_dust>,
     <item:emendatusenigmatica:zinc_dirty_dust>,
     <item:contenttweaker:tin_dirty_dust>,
     <item:emendatusenigmatica:nickel_dirty_dust>,
@@ -100,6 +112,8 @@ var dusts as IItemStack[] = [
 ];
 
 var dirtyDusts as IItemStack[] = [
+    <item:contenttweaker:uranium_dirty_dust>,
+    <item:contenttweaker:osmium_dirty_dust>,
     <item:emendatusenigmatica:zinc_dirty_dust>,
     <item:contenttweaker:tin_dirty_dust>,
     <item:emendatusenigmatica:nickel_dirty_dust>,
@@ -112,6 +126,8 @@ var dirtyDusts as IItemStack[] = [
 ];
 
 var crystals as IItemStack[] = [
+    <item:contenttweaker:uranium_crystal>,
+    <item:contenttweaker:osmium_crystal>,
     <item:emendatusenigmatica:zinc_crystal>,
     <item:contenttweaker:tin_crystal>,
     <item:emendatusenigmatica:nickel_crystal>,
@@ -124,6 +140,8 @@ var crystals as IItemStack[] = [
 ];
 
 var shards as IItemStack[] = [
+    <item:contenttweaker:uranium_shard>,
+    <item:contenttweaker:osmium_shard>,
     <item:emendatusenigmatica:zinc_shard>,
     <item:contenttweaker:tin_shard>,
     <item:emendatusenigmatica:nickel_shard>,
@@ -136,6 +154,8 @@ var shards as IItemStack[] = [
 ];
 
 var fragments as IItemStack[] = [
+    <item:emendatusenigmatica:uranium_fragment>,
+    <item:emendatusenigmatica:osmium_fragment>,
     <item:emendatusenigmatica:zinc_fragment>,
     <item:emendatusenigmatica:tin_fragment>,
     <item:emendatusenigmatica:nickel_fragment>,
@@ -166,24 +186,30 @@ var remove_slurries as string[] = [
     "mekanism:processing/gold/slurry/dirty",
     "mekanism:processing/copper/slurry/dirty",
     "mekanism:processing/tin/slurry/dirty",
+    "mekanism:processing/osmium/slurry/dirty",
+    "mekanism:processing/uranium/slurry/dirty",
 
     "mekanism:processing/lead/slurry/clean",
     "mekanism:processing/iron/slurry/clean",
     "mekanism:processing/gold/slurry/clean",
     "mekanism:processing/copper/slurry/clean",
     "mekanism:processing/tin/slurry/clean",
+    "mekanism:processing/osmium/slurry/clean",
+    "mekanism:processing/uranium/slurry/clean",
 
     "mekanism:processing/lead/crystal/from_slurry",
     "mekanism:processing/iron/crystal/from_slurry",
     "mekanism:processing/gold/crystal/from_slurry",
     "mekanism:processing/copper/crystal/from_slurry",
     "mekanism:processing/tin/crystal/from_slurry",
+    "mekanism:processing/osmium/crystal/from_slurry",
+    "mekanism:processing/uranium/crystal/from_slurry",
 ];
 
 for i, proc in remove_slurries {
-    if (i <= 4) {
+    if (i <= 6) {
         <recipetype:mekanism:dissolution>.removeByName(proc);
-    } else if (i > 4 && i <= 9 ) {
+    } else if (i > 6 && i <= 13 ) {
         <recipetype:mekanism:washing>.removeByName(proc);
     } else {
         <recipetype:mekanism:crystallizing>.removeByName(proc);

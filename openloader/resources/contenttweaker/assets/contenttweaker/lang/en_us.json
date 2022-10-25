@@ -23,5 +23,13 @@
 
     "item.contenttweaker.tin_crystal": "Tin Crystal",
     "item.contenttweaker.tin_shard": "Tin Shard",
-    "item.contenttweaker.tin_dirty_dust": "Dirty Tin Dust"
+    "item.contenttweaker.tin_dirty_dust": "Dirty Tin Dust",
+
+    "item.contenttweaker.osmium_crystal": "Osmium Crystal",
+    "item.contenttweaker.osmium_shard": "Osmium Shard",
+    "item.contenttweaker.osmium_dirty_dust": "Dirty Osmium Dust",
+
+    "item.contenttweaker.uranium_crystal": "Uranium Crystal",
+    "item.contenttweaker.uranium_shard": "Uranium Shard",
+    "item.contenttweaker.uranium_dirty_dust": "Dirty Uranium Dust"
 }
