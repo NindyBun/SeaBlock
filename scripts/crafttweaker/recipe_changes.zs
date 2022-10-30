@@ -1,3 +1,4 @@
+#priority 99
 import crafttweaker.api.recipe.Replacer;
 import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.recipes.WrapperRecipe;
@@ -46,6 +47,9 @@ var ores as string[] = [
     "obsidian",
     "fluorite"
 ];
+
+<tag:items:steampowered:ingots/cast_iron>.add(<item:emendatusenigmatica:cast_iron_ingot>);
+<tag:items:steampowered:plates/cast_iron>.add(<item:emendatusenigmatica:cast_iron_plate>);
 
 var tags as IIngredient[] = [
     <tag:items:forge:ingots/iron>,
@@ -405,6 +409,6 @@ var items as IIngredient[] = [
     <item:emendatusenigmatica:fluorite_gem>,
 ];
 
-for i, tag in tags {
+/* for i, tag in tags {
     Replacer.forEverything().replace(tags[i], items[i]).suppressWarnings().execute();
-}
+}  */

@@ -7,6 +7,8 @@
 #B87714 immersiveengineering:capacitor_creative
 #66FEAF immersiveengineering:capacitor_lv
 #F522F4 minecraft:chest
+#2C7C44 immersiveengineering:connector_lv
+#DBE4D6 immersiveengineering:connector_lv_relay
 #B4E342 immersiveengineering:conveyor_basic
 #4E3993 sfm:crafter
 #468304 minecraft:crafting_table
@@ -39,5 +41,6 @@
 #F428EC immersiveengineering:steel_scaffolding_standard
 #3B1D89 minecraft:stripped_oak_log
 #CA9B99 cobblefordays:tier_1
+#665C6E immersiveengineering:treated_post
 #F4CAAD mekanism:ultimate_logistical_transporter
 #9D5016 pipez:universal_pipe

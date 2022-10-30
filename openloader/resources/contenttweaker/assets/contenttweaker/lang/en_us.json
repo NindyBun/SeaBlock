@@ -31,5 +31,9 @@
 
     "item.contenttweaker.uranium_crystal": "Uranium Crystal",
     "item.contenttweaker.uranium_shard": "Uranium Shard",
-    "item.contenttweaker.uranium_dirty_dust": "Dirty Uranium Dust"
+    "item.contenttweaker.uranium_dirty_dust": "Dirty Uranium Dust",
+
+    "item.contenttweaker.copper_tin_alloy": "Copper Tin Alloy",
+    "item.contenttweaker.lead_diamond_alloy": "Lead Diamond Alloy",
+    "item.contenttweaker.tin_silver_alloy": "Tin Silver Alloy"
 }

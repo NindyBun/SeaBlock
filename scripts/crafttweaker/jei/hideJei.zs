@@ -47,12 +47,17 @@ var ores as string[] = [
 
 // Leave only Emendatus Enigmatica craftings
 mods.jei.JEI.hideItem(<item:mekanism:dust_netherite>);
+mods.jei.JEI.hideItem(<item:thermal:press_gear_die>);
+mods.jei.JEI.hideItem(<item:createaddition:rolling_mill>);
+mods.jei.JEI.hideItem(<item:immersiveengineering:stick_iron>);
+mods.jei.JEI.hideItem(<item:immersiveengineering:stick_steel>);
+mods.jei.JEI.hideItem(<item:immersiveengineering:stick_aluminum>);
 
 mods.jei.JEI.hideRegex(".*ore.*");
 mods.jei.JEI.hideRegex(".*crushed.*");
 mods.jei.JEI.hideRegex("createaddition:.*_rod");
 mods.jei.JEI.hideRegex("createaddition:.*_sheet");
-mods.jei.JEI.hideRegex("immersiveengineering:stick.*");
+//mods.jei.JEI.hideRegex("immersiveengineering:stick.*");
 mods.jei.JEI.hideRegex("immersiveposts:stick.*");
 mods.jei.JEI.hideRegex("immersiveengineering:plate.*");
 mods.jei.JEI.hideRegex("immersiveengineering:nugget.*");
@@ -235,6 +240,7 @@ for ore in ores {
     if ("mekanism:processing/"+ore+"/from_dust" in listOfRecipes) { <recipetype:mekanism:enriching>.removeByName("mekanism:processing/"+ore+"/from_dust"); }
     if ("mekanism:processing/"+ore+"/ore/from_dust" in listOfRecipes) { <recipetype:mekanism:combining>.removeByName("mekanism:processing/"+ore+"/ore/from_dust"); }
     if ("mekanism:processing/"+ore+"/ingot/from_infusing" in listOfRecipes) { <recipetype:mekanism:metallurgic_infusing>.removeByName("mekanism:processing/"+ore+"/ingot/from_infusing"); }
+    if ("mekanism:nuggets/"+ore in listOfRecipes) { craftingTable.removeByName("mekanism:nuggets/"+ore); }
 
     if ("immersiveengineering:crafting/hammercrushing_"+ore in listOfRecipes) { craftingTable.removeByName("immersiveengineering:crafting/hammercrushing_"+ore); }
     if ("immersiveengineering:crusher/"+ore in listOfRecipes) { <recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/"+ore); }
