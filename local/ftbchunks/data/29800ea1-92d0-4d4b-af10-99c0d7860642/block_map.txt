@@ -1,5 +1,6 @@
 #0DF5DA steampowered:alternator
 #C0EEE0 create:andesite_encased_shaft
+#210EED immersivepetroleum:asphalt
 #FB5E18 mekanism:basic_energy_cube
 #1D5855 mekanism:basic_universal_cable
 #840F59 minecraft:bedrock
@@ -7,6 +8,7 @@
 #B87714 immersiveengineering:capacitor_creative
 #66FEAF immersiveengineering:capacitor_lv
 #F522F4 minecraft:chest
+#7C100D immersiveengineering:concrete
 #2C7C44 immersiveengineering:connector_lv
 #DBE4D6 immersiveengineering:connector_lv_relay
 #B4E342 immersiveengineering:conveyor_basic

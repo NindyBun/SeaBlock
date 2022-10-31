@@ -228,6 +228,9 @@ var tags as IIngredient[] = [
     <tag:items:forge:gems/niter>,
     <tag:items:forge:gems/sulfur>,
     <tag:items:forge:gems/fluorite>,
+
+    <tag:items:forge:coal_coke>,
+    <tag:items:forge:storage_blocks/coal_coke>
 ];
 
 var items as IIngredient[] = [
@@ -407,8 +410,11 @@ var items as IIngredient[] = [
     <item:thermal:niter>,
     <item:thermal:sulfur>,
     <item:emendatusenigmatica:fluorite_gem>,
+
+    <item:immersiveengineering:coal_coke>,
+    <item:immersiveengineering:coke>
 ];
 
 /* for i, tag in tags {
     Replacer.forEverything().replace(tags[i], items[i]).suppressWarnings().execute();
-}  */
+} */

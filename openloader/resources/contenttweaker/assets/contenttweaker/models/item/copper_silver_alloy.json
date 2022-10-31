@@ -2,6 +2,6 @@
     "parent": "minecraft:item/handheld",
     "textures":
     {
-      "layer0": "contenttweaker:item/copper_tin_alloy"
+      "layer0": "contenttweaker:item/copper_silver_alloy"
     }
   }
