@@ -35,5 +35,35 @@
 
     "item.contenttweaker.copper_silver_alloy": "Copper Silver Alloy",
     "item.contenttweaker.lead_diamond_alloy": "Lead Diamond Alloy",
-    "item.contenttweaker.tin_silver_alloy": "Tin Silver Alloy"
+    "item.contenttweaker.tin_silver_alloy": "Tin Silver Alloy",
+
+    "item.contenttweaker.glass_vile": "Glass Vile",
+    "item.contenttweaker.red_vile": "Logistical Science",
+    "item.contenttweaker.green_vile": "Mechanical Science",
+    "item.contenttweaker.blue_vile": "Production Science",
+    "item.contenttweaker.purple_vile": "Utility Science",
+    "item.contenttweaker.yellow_vile": "Chemical Science",
+    "item.contenttweaker.white_vile": "Spacial Science",
+
+    "item.contenttweaker.priming_dust": "Base Primer",
+    "item.contenttweaker.red_primer": "Logistical Primer",
+    "item.contenttweaker.green_primer": "Mechanical Primer",
+    "item.contenttweaker.blue_primer": "Production Primer",
+    "item.contenttweaker.purple_primer": "Utility Primer",
+    "item.contenttweaker.yellow_primer": "Chemical Primer",
+    "item.contenttweaker.white_primer": "Spacial Primer",
+
+    "item.contenttweaker.liquid_red_bucket": "Bucket of Liquid Logistic",
+    "item.contenttweaker.liquid_green_bucket": "Bucket of Liquid Mechanic",
+    "item.contenttweaker.liquid_blue_bucket": "Bucket of Liquid Production",
+    "item.contenttweaker.liquid_purple_bucket": "Bucket of Liquid Utility",
+    "item.contenttweaker.liquid_yellow_bucket": "Bucket of Liquid Chemical",
+    "item.contenttweaker.liquid_white_bucket": "Bucket of Liquid Space",
+
+    "fluid.contenttweaker.liquid_red": "Liquid Logistic",
+    "fluid.contenttweaker.liquid_green": "Liquid Mechanic",
+    "fluid.contenttweaker.liquid_blue": "Liquid Production",
+    "fluid.contenttweaker.liquid_purple": "Liquid Utility",
+    "fluid.contenttweaker.liquid_yellow": "Liquid Chemical",
+    "fluid.contenttweaker.liquid_white": "Liquid Space"
 }
