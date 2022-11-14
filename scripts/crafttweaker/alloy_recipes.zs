@@ -16,9 +16,9 @@ var alloy_map as IItemStack[][] = [
 ];
 
 for i, ingot in alloy_map {
-    <recipetype:thermal:smelter>.addRecipe("recipe.thermal.smelter."+i, [ingot[2]], [ingot[0], ingot[1]], 0, pow_thermal_smelter);
-    <recipetype:immersiveengineering:alloy>.addRecipe("recipe.immersiveengineering.alloy."+i, ingot[0], ingot[1], 200, ingot[2]);
-    <recipetype:create:mixing>.addRecipe("recipe.create.mixing.alloy."+i, "heated", ingot[2], [ingot[0], ingot[1]]);
+    <recipetype:thermal:smelter>.addRecipe("recipe.thermal.smelter/alloy/"+i, [ingot[2]], [ingot[0], ingot[1]], 0, pow_thermal_smelter);
+    if (i != 4) { <recipetype:immersiveengineering:alloy>.addRecipe("recipe.immersiveengineering.alloy/alloy/"+i, ingot[0], ingot[1], 200, ingot[2]); }
+    <recipetype:create:mixing>.addRecipe("recipe.create.mixing.alloy/"+i, "heated", ingot[2], [ingot[0], ingot[1]]);
 }
 
 var pow_thermal_bottler = 2000;
@@ -34,5 +34,6 @@ var infusing_alloy_fluid_map as IFluidStack[] = [
 ];
 
 for i, ingot in infusing_alloy_map {
-    <recipetype:thermal:bottler>.addRecipe("recipe.thermal.bottler."+i, ingot[1], ingot[0], infusing_alloy_fluid_map[i], pow_thermal_bottler);
-    <recipetype:create:mixing>.addRecipe("recipe.create.mixing.alloy_2."+i, "heated", ingot[1], [ingot[0]], [infusing_alloy_fluid_map[i]]);}
+    <recipetype:thermal:bottler>.addRecipe("recipe.thermal.bottler.alloy/"+i, ingot[1], ingot[0], infusing_alloy_fluid_map[i], pow_thermal_bottler);
+    <recipetype:create:mixing>.addRecipe("recipe.create.mixing.alloy_2/"+i, "heated", ingot[1], [ingot[0]], [infusing_alloy_fluid_map[i]]);
+}

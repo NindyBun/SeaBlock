@@ -53,7 +53,7 @@ mods.jei.JEI.hideItem(<item:immersiveengineering:stick_iron>);
 mods.jei.JEI.hideItem(<item:immersiveengineering:stick_steel>);
 mods.jei.JEI.hideItem(<item:immersiveengineering:stick_aluminum>);
 
-mods.jei.JEI.hideRegex(".*ore.*");
+mods.jei.JEI.hideRegex(".*ore");
 mods.jei.JEI.hideRegex(".*crushed.*");
 mods.jei.JEI.hideRegex("createaddition:.*_rod");
 mods.jei.JEI.hideRegex("createaddition:.*_sheet");
@@ -131,6 +131,7 @@ craftingTable.removeByName("emendatusenigmatica:enigmatic_fortunizer");
 <recipetype:mekanism:crushing>.removeByName("mekanism:processing/netherite/ingot_to_dust");
 <recipetype:mekanism:combining>.removeByName("mekanism:processing/netherite/dust_to_ancient_debris");
 <recipetype:mekanism:metallurgic_infusing>.removeByName("mekanism:processing/netherite/scrap_to_dust");
+<recipetype:mekanism:metallurgic_infusing>.removeByName("mekanism:processing/bronze/dust/from_infusing");
 <recipetype:create:splashing>.removeByName("create:splashing/crushed_brass");
 <recipetype:create:mixing>.removeByName("create:mixing/brass_ingot");
 <recipetype:create:mixing>.removeByName("create:mixing/crushed_brass");
@@ -202,7 +203,7 @@ for ore in ores {
     if ("create:milling/"+ore+"_ore" in listOfRecipes) { <recipetype:create:milling>.removeByName("create:milling/"+ore+"_ore"); }
     if ("createautomated:mixing/"+ore+"_ingot_from_pieces" in listOfRecipes) { <recipetype:create:mixing>.removeByName("createautomated:mixing/"+ore+"_ingot_from_pieces"); }
     if ("createautomated:pressing/"+ore+"_ingot" in listOfRecipes) { <recipetype:create:pressing>.removeByName("createautomated:pressing/"+ore+"_ingot"); }
-    if ("createa:pressing/"+ore+"_ingot" in listOfRecipes) { <recipetype:create:pressing>.removeByName("create:pressing/"+ore+"_ingot"); }
+    if ("create:pressing/"+ore+"_ingot" in listOfRecipes) { <recipetype:create:pressing>.removeByName("create:pressing/"+ore+"_ingot"); }
     if ("createaddition:pressing/"+ore+"_ingot" in listOfRecipes) { <recipetype:create:pressing>.removeByName("createaddition:pressing/"+ore+"_ingot"); }
     if ("createaddition:rolling/"+ore+"_plate" in listOfRecipes) { <recipetype:createaddition:rolling>.removeByName("createaddition:rolling/"+ore+"_plate"); }
     if ("createaddition:rolling/"+ore+"_ingot" in listOfRecipes) { <recipetype:createaddition:rolling>.removeByName("createaddition:rolling/"+ore+"_ingot"); }

@@ -1,0 +1,510 @@
+{
+	id: "3E7179954D664C2B"
+	group: ""
+	order_index: 1
+	filename: "transportation"
+	title: "Transportation"
+	icon: "immersiveengineering:conveyor_basic"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Wooden Colossal Chest"
+			x: 0.0d
+			y: 0.0d
+			id: "20DFD3AAF7E97468"
+			tasks: [{
+				id: "464A5DF3774C5926"
+				type: "item"
+				item: "colossalchests:chest_wall_wood"
+			}]
+			rewards: [{
+				id: "48A568D9B20FD8C0"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "COLOSSAL_WOOD"
+			}]
+		}
+		{
+			title: "Copper Colossal Chest"
+			x: -0.5d
+			y: 1.5d
+			dependencies: ["20DFD3AAF7E97468"]
+			id: "2EB1DE2A498A69C5"
+			tasks: [{
+				id: "22025ED78E897A9B"
+				type: "item"
+				item: "colossalchests:chest_wall_copper"
+			}]
+			rewards: [{
+				id: "4F71FF905B030951"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "COLOSSAL_COPPER"
+			}]
+		}
+		{
+			title: "Iron Colossal Chest"
+			x: 0.5d
+			y: 1.5d
+			dependencies: ["20DFD3AAF7E97468"]
+			id: "3DF95862505EB4F0"
+			tasks: [{
+				id: "56B7646FDE86F146"
+				type: "item"
+				item: "colossalchests:chest_wall_iron"
+			}]
+		}
+		{
+			title: "Silver Colossal Chest"
+			x: -0.5d
+			y: 3.0d
+			dependencies: ["2EB1DE2A498A69C5"]
+			id: "4B3EAC03BC53F263"
+			tasks: [{
+				id: "755663C9A89F471F"
+				type: "item"
+				item: "colossalchests:chest_wall_silver"
+			}]
+			rewards: [{
+				id: "5A069668A4A180A5"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "COLOSSAL_SILVER"
+			}]
+		}
+		{
+			title: "Golden Colossal Chest"
+			x: 0.5d
+			y: 3.0d
+			dependencies: ["3DF95862505EB4F0"]
+			id: "6051FE8078ED46A5"
+			tasks: [{
+				id: "69D0CC972AD8B847"
+				type: "item"
+				item: "colossalchests:chest_wall_gold"
+			}]
+			rewards: [{
+				id: "268DD629EDBAF3F8"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "COLOSSAL_GOLD"
+			}]
+		}
+		{
+			title: "Diamond Colossal Chest"
+			x: 0.0d
+			y: 4.5d
+			dependencies: [
+				"6051FE8078ED46A5"
+				"4B3EAC03BC53F263"
+			]
+			dependency_requirement: "one_completed"
+			id: "70297818F6F88978"
+			tasks: [{
+				id: "1669E96AB5CFA71D"
+				type: "item"
+				item: "colossalchests:chest_wall_diamond"
+			}]
+			rewards: [{
+				id: "37E0C79C609159E8"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "COLOSSAL_DIAMOND"
+			}]
+		}
+		{
+			title: "Obsidian Colossal Chest"
+			x: 0.0d
+			y: 6.0d
+			dependencies: ["70297818F6F88978"]
+			id: "14E0A86F35929917"
+			tasks: [{
+				id: "7E2D4AE244A35726"
+				type: "item"
+				item: "colossalchests:chest_wall_obsidian"
+			}]
+			rewards: [{
+				id: "77307E3BB2912C1F"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "COLOSSAL_OBSIDIAN"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 0.0d
+			id: "541157D449000553"
+			tasks: [{
+				id: "454707599E660AAC"
+				type: "item"
+				item: "immersiveengineering:conveyor_basic"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -3.0d
+			id: "34D2D27C690547B3"
+			tasks: [{
+				id: "479EDB4BDD638417"
+				type: "item"
+				item: "create:smart_fluid_pipe"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			id: "5666C8C2B525910C"
+			tasks: [{
+				id: "73B3562E387D9C92"
+				type: "item"
+				item: "mekanism:dynamic_tank"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			id: "7B52C08D499E241D"
+			tasks: [{
+				id: "1C56F5C896F725A3"
+				type: "item"
+				item: "mekanism:basic_universal_cable"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.5d
+			id: "179A0AEA0295DBC7"
+			tasks: [{
+				id: "276B80D01E065DE6"
+				type: "item"
+				item: "mekanism:advanced_universal_cable"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 3.0d
+			id: "5E86C31EF965ABFD"
+			tasks: [{
+				id: "5458EA071123EC53"
+				type: "item"
+				item: "mekanism:elite_universal_cable"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 4.5d
+			id: "1EF2EA11F157CA3A"
+			tasks: [{
+				id: "35BDE5CA3178F79A"
+				type: "item"
+				item: "mekanism:ultimate_universal_cable"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			id: "34C33EFD11CADAEF"
+			tasks: [{
+				id: "724054ADF2637D8A"
+				type: "item"
+				item: "immersiveengineering:wirecoil_copper"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.5d
+			id: "44DE0DE82AA8963C"
+			tasks: [{
+				id: "452A29413B1F5CB5"
+				type: "item"
+				item: "immersiveengineering:wirecoil_electrum"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 3.0d
+			id: "3CD6E0BD2F0A1234"
+			tasks: [{
+				id: "1AB35B477CD62339"
+				type: "item"
+				item: "immersiveengineering:wirecoil_steel"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 0.0d
+			id: "00B3657D2F820996"
+			tasks: [{
+				id: "66D31CEF81DF0D44"
+				type: "item"
+				item: "mekanism:basic_mechanical_pipe"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 1.5d
+			id: "7CE366D20D177D75"
+			tasks: [{
+				id: "4CB5A52C7F21B67B"
+				type: "item"
+				item: "mekanism:advanced_mechanical_pipe"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 3.0d
+			id: "06BCEFDEB7F34F73"
+			tasks: [{
+				id: "7BEF6AF2089DCD4D"
+				type: "item"
+				item: "mekanism:elite_mechanical_pipe"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 4.5d
+			id: "7D0806F29448C627"
+			tasks: [{
+				id: "0410F92A45B28A14"
+				type: "item"
+				item: "mekanism:ultimate_mechanical_pipe"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 1.5d
+			id: "5F37007525060983"
+			tasks: [{
+				id: "337F68B2CA812B0A"
+				type: "item"
+				item: "mekanism:basic_logistical_transporter"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 3.0d
+			id: "5C7B8DF3DD228D31"
+			tasks: [{
+				id: "784CA7B40C428B13"
+				type: "item"
+				item: "mekanism:advanced_logistical_transporter"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 4.5d
+			id: "7FDD52B9C497475F"
+			tasks: [{
+				id: "6E524C4E9BB363DD"
+				type: "item"
+				item: "mekanism:elite_logistical_transporter"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 6.0d
+			id: "28FA3BDB5E0BE847"
+			tasks: [{
+				id: "7D920D040EB16582"
+				type: "item"
+				item: "mekanism:ultimate_logistical_transporter"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 2.0d
+			id: "3DBA0FD305D2DC19"
+			tasks: [{
+				id: "2185CD6EDEDD178B"
+				type: "item"
+				item: "mekanism:restrictive_transporter"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 2.0d
+			id: "7D7E4369634E9D09"
+			tasks: [{
+				id: "099BF3A42E834067"
+				type: "item"
+				item: "mekanism:diversion_transporter"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			id: "01EF7F723ABCF0E8"
+			tasks: [{
+				id: "2401C201885300C5"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			id: "0B01A12301B911B7"
+			tasks: [{
+				id: "407C52E67F270EC0"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -1.5d
+			id: "59CC36A397E8419E"
+			tasks: [{
+				id: "31C5748866D29AEE"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -1.5d
+			id: "7C2B5349BF1B60A3"
+			tasks: [{
+				id: "55BFD919AFBD9B42"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			id: "1910045E7F45DADE"
+			tasks: [{
+				id: "7AB0AD210BD4A849"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			id: "6DC22EEDC0589615"
+			tasks: [{
+				id: "208A18392674952B"
+				type: "item"
+				item: "mekanism:basic_fluid_tank"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -3.0d
+			id: "0523830F65D100AD"
+			tasks: [{
+				id: "360AAD0005C33C9C"
+				type: "item"
+				item: "create:fluid_valve"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -4.5d
+			id: "21891C5068B55C9B"
+			tasks: [{
+				id: "19D04DDC3822E214"
+				type: "item"
+				item: "storagenetwork:storage_kabel"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -3.0d
+			id: "73E64A5E007337A2"
+			tasks: [{
+				id: "002A2A02CE467B12"
+				type: "item"
+				item: "sfm:manager"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -7.5d
+			id: "6E2771A39EA79292"
+			tasks: [{
+				id: "71AB4727ED6D0476"
+				type: "item"
+				item: "integrateddynamics:variable"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -6.0d
+			id: "4E57B806719AF064"
+			tasks: [{
+				id: "15A7A8015A06C68A"
+				type: "item"
+				item: "prettypipes:pipe"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -7.5d
+			id: "03244FBA21A62F4E"
+			tasks: [{
+				id: "726910C4BA3E00AB"
+				type: "item"
+				item: "integratedtunnels:part_importer_world_fluid"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -7.5d
+			id: "527C2E272C042F5B"
+			tasks: [{
+				id: "6DB8599148AFE275"
+				type: "item"
+				item: "integratedtunnels:part_importer_world_energy"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -7.5d
+			id: "4C7008E27A8F1D0B"
+			tasks: [{
+				id: "7D359AD446094A52"
+				type: "item"
+				item: "integratedtunnels:part_importer_world_item"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -6.0d
+			id: "136BDFDB59ED5C36"
+			tasks: [{
+				id: "4E23C412C367A6AC"
+				type: "item"
+				item: "ppfluids:fluid_pipe"
+			}]
+		}
+		{
+			x: -10.5d
+			y: -1.5d
+			id: "7AA51182BE4731C7"
+			tasks: [{
+				id: "513483B3F5AD2C19"
+				type: "item"
+				item: "immersiveengineering:fluid_pump"
+			}]
+		}
+		{
+			x: -12.0d
+			y: -1.5d
+			id: "0B65C66A7ADAA493"
+			tasks: [{
+				id: "72DCD2C7AB2E2751"
+				type: "item"
+				item: "thermal:device_water_gen"
+			}]
+		}
+		{
+			x: -13.5d
+			y: -1.5d
+			id: "2056400856AE0E4B"
+			tasks: [{
+				id: "36B619855664DC10"
+				type: "item"
+				item: "mekanism:electric_pump"
+			}]
+		}
+	]
+}

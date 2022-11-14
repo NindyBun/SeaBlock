@@ -1,0 +1,23 @@
+{
+	id: "3DD5126A62F56D6E"
+	group: ""
+	order_index: 0
+	filename: "getting_started"
+	title: "Getting Started"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		description: [
+			"You're stranded in the middle of the ocean."
+			"In order for you to get out of here, you must create various sciences and research your way out."
+		]
+		id: "51E09C465CE596E8"
+		tasks: [{
+			id: "07BF541A84745CF4"
+			type: "checkmark"
+			title: "Oh noes..."
+		}]
+	}]
+}

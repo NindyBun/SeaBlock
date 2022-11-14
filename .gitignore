@@ -1,11 +1,9 @@
 /.curseclient
-/config
 /crash-reports
 /defaultconfigs
 /downloads
 /imgui.ini
 /minecraftinstance.json
-/mods
 /options.txt
 /resourcepacks
 /saves
@@ -19,3 +17,5 @@
 /XaeroWaypoints
 /XaeroWaypoints_BACKUP032021
 /XaeroWorldMap
+/ct_dumps
+/ESM

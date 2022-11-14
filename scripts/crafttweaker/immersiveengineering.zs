@@ -1,5 +1,5 @@
 craftingTable.removeRecipe(<item:immersiveengineering:hammer>);
-craftingTable.addShaped("recipe.immersiveengineering.crafting.hammer", <item:immersiveengineering:hammer>, [
+craftingTable.addShaped("recipe.crafting.immersiveengineering.hammer", <item:immersiveengineering:hammer>, [
     [<item:minecraft:air>, <item:emendatusenigmatica:iron_plate>, <item:minecraft:air>],
     [<item:minecraft:air>, <tag:items:forge:rods/wooden>, <item:emendatusenigmatica:iron_plate>],
     [<tag:items:forge:rods/wooden>, <item:minecraft:air>, <item:minecraft:air>]
@@ -9,25 +9,25 @@ craftingTable.addShaped("recipe.immersiveengineering.crafting.hammer", <item:imm
 <recipetype:immersiveengineering:coke_oven>.removeRecipe(<item:immersiveengineering:coal_coke>);
 <recipetype:immersiveengineering:coke_oven>.removeRecipe(<item:immersiveengineering:coke>);
 <recipetype:immersiveengineering:coke_oven>.removeRecipe(<item:minecraft:charcoal>);
-<recipetype:immersiveengineering:coke_oven>.addRecipe("recipe.immersiveengineering.coke_oven.coal_coke", <item:minecraft:coal>, 300, <item:immersiveengineering:coal_coke>, 500);
-<recipetype:immersiveengineering:coke_oven>.addRecipe("recipe.immersiveengineering.coke_oven.coke_block", <item:minecraft:coal_block>, 3000, <item:immersiveengineering:coke>, 5000);
-<recipetype:immersiveengineering:coke_oven>.addRecipe("recipe.immersiveengineering.coke_oven.charcoal", <tag:items:minecraft:logs>, 200, <item:minecraft:charcoal>, 250);
+<recipetype:immersiveengineering:coke_oven>.addRecipe("recipe.crafting.immersiveengineering.coke_oven.coal_coke", <item:minecraft:coal>, 300, <item:immersiveengineering:coal_coke>, 500);
+<recipetype:immersiveengineering:coke_oven>.addRecipe("recipe.crafting.immersiveengineering.coke_oven.coke_block", <item:minecraft:coal_block>, 3000, <item:immersiveengineering:coke>, 5000);
+<recipetype:immersiveengineering:coke_oven>.addRecipe("recipe.crafting.immersiveengineering.coke_oven.charcoal", <tag:items:minecraft:logs>, 200, <item:minecraft:charcoal>, 250);
 
 <recipetype:immersiveengineering:blast_furnace>.removeRecipe(<item:immersiveengineering:storage_steel>);
 <recipetype:immersiveengineering:blast_furnace>.removeRecipe(<item:immersiveengineering:ingot_steel>);
-<recipetype:immersiveengineering:blast_furnace>.addRecipe("recipe.immersiveengineering.blast_furnace.steel_block", <item:minecraft:iron_block>, 6000, <item:emendatusenigmatica:steel_block>, <item:immersiveengineering:slag>*9);
-<recipetype:immersiveengineering:blast_furnace>.addRecipe("recipe.immersiveengineering.blast_furnace.steel", <item:minecraft:iron_ingot>, 600, <item:emendatusenigmatica:steel_ingot>, <item:immersiveengineering:slag>);
+<recipetype:immersiveengineering:blast_furnace>.addRecipe("recipe.crafting.immersiveengineering.blast_furnace.steel_block", <item:minecraft:iron_block>, 6000, <item:emendatusenigmatica:steel_block>, <item:immersiveengineering:slag>*9);
+<recipetype:immersiveengineering:blast_furnace>.addRecipe("recipe.crafting.immersiveengineering.blast_furnace.steel", <item:minecraft:iron_ingot>, 600, <item:emendatusenigmatica:steel_ingot>, <item:immersiveengineering:slag>);
 <recipetype:immersiveengineering:blast_furnace_fuel>.addFuel("coal", <item:minecraft:coal>, 600);
 <recipetype:immersiveengineering:blast_furnace_fuel>.addFuel("coal_block", <item:minecraft:coal_block>, 6000);
 
 craftingTable.removeByName("immersiveengineering:crafting/concrete");
 craftingTable.removeByName("immersiveengineering:crafting/concrete2");
-craftingTable.addShaped("recipe.immersiveengineering.crafting.concrete", <item:immersiveengineering:concrete>*8, [
+craftingTable.addShaped("recipe.crafting.immersiveengineering.crafting.concrete", <item:immersiveengineering:concrete>*8, [
     [<tag:items:minecraft:sand>, <item:minecraft:gravel>, <tag:items:minecraft:sand>],
     [<item:minecraft:gravel>, <item:minecraft:clay>, <item:minecraft:gravel>],
     [<tag:items:minecraft:sand>, <item:minecraft:gravel>, <tag:items:minecraft:sand>]
 ]);
-craftingTable.addShaped("recipe.immersiveengineering.crafting.concrete2", <item:immersiveengineering:concrete>*12, [
+craftingTable.addShaped("recipe.crafting.immersiveengineering.concrete2", <item:immersiveengineering:concrete>*12, [
     [<tag:items:forge:slag>, <item:minecraft:gravel>, <tag:items:forge:slag>],
     [<item:minecraft:gravel>, <item:minecraft:clay>, <item:minecraft:gravel>],
     [<tag:items:forge:slag>, <item:minecraft:gravel>, <tag:items:forge:slag>]
@@ -35,12 +35,12 @@ craftingTable.addShaped("recipe.immersiveengineering.crafting.concrete2", <item:
 
 craftingTable.removeByName("immersivepetroleum:asphalt");
 craftingTable.removeByName("immersivepetroleum:asphalt2");
-craftingTable.addShaped("recipe.immersivepetroleum.asphalt", <item:immersivepetroleum:asphalt>*8, [
+craftingTable.addShaped("recipe.crafting.immersivepetroleum.asphalt", <item:immersivepetroleum:asphalt>*8, [
     [<tag:items:minecraft:sand>, <tag:items:forge:bitumen>, <tag:items:minecraft:sand>],
     [<item:minecraft:gravel>, <item:minecraft:clay>, <item:minecraft:gravel>],
     [<tag:items:minecraft:sand>, <tag:items:forge:bitumen>, <tag:items:minecraft:sand>]
 ]);
-craftingTable.addShaped("recipe.immersivepetroleum.asphalt2", <item:immersivepetroleum:asphalt>*12, [
+craftingTable.addShaped("recipe.crafting.immersivepetroleum.asphalt2", <item:immersivepetroleum:asphalt>*12, [
     [<tag:items:forge:slag>, <tag:items:forge:bitumen>, <tag:items:forge:slag>],
     [<item:minecraft:gravel>, <item:minecraft:clay>, <item:minecraft:gravel>],
     [<tag:items:forge:slag>, <tag:items:forge:bitumen>, <tag:items:forge:slag>]
@@ -82,4 +82,42 @@ craftingTable.removeRecipe(<item:immersiveengineering:blueprint>.withTag({bluepr
 craftingTable.addShaped("recipe.crafting.immersiveengineering.blueprint_6", <item:immersiveengineering:blueprint>.withTag({blueprint: "bannerpatters"}), [
     [<item:minecraft:air>, <tag:items:minecraft:banners>, <item:minecraft:air>], 
     [<item:minecraft:paper>, <item:minecraft:paper>, <item:minecraft:paper>]
+]);
+
+craftingTable.removeRecipe(<item:immersiveengineering:cokebrick>);
+craftingTable.addShaped("recipe.crafting.immersiveengineering.cokebrick", <item:immersiveengineering:cokebrick>*3, [
+    [<item:minecraft:cobblestone>, <item:minecraft:cobblestone>, <item:minecraft:cobblestone>],
+    [<item:minecraft:cobblestone>, <item:minecraft:stone>, <item:minecraft:cobblestone>],
+    [<item:minecraft:cobblestone>, <item:minecraft:cobblestone>, <item:minecraft:cobblestone>],
+]);
+
+craftingTable.removeRecipe(<item:immersiveengineering:blastbrick>);
+craftingTable.addShaped("recipe.crafting.immersiveengineering.blastbrick", <item:immersiveengineering:blastbrick>*3, [
+    [<item:minecraft:cobblestone>, <item:minecraft:cobblestone>, <item:minecraft:cobblestone>],
+    [<item:minecraft:cobblestone>, <item:immersiveengineering:cokebrick>, <item:minecraft:cobblestone>],
+    [<item:minecraft:cobblestone>, <item:minecraft:cobblestone>, <item:minecraft:cobblestone>],
+]);
+
+craftingTable.removeRecipe(<item:immersiveengineering:alloybrick>);
+craftingTable.addShaped("recipe.crafting.immersiveengineering.alloybrick", <item:immersiveengineering:alloybrick>*4, [
+    [<item:immersiveengineering:cokebrick>, <item:minecraft:cobblestone>],
+    [<item:minecraft:cobblestone>, <item:immersiveengineering:cokebrick>]
+]);
+
+craftingTable.removeRecipe(<item:immersiveengineering:conveyor_basic>);
+craftingTable.addShaped("recipe.crafting.immersiveengineering.conveyor_basic", <item:immersiveengineering:conveyor_basic>*2, [
+    [<item:minecraft:iron_ingot>, <item:emendatusenigmatica:copper_gear>, <item:minecraft:iron_ingot>]
+]);
+
+craftingTable.removeRecipe(<item:immersiveengineering:conveyor_extract>);
+craftingTable.addShaped("recipe.crafting.immersiveengineering.conveyor_extract", <item:immersiveengineering:conveyor_extract>, [
+    [<item:minecraft:hopper>],
+    [<item:immersiveengineering:conveyor_basic>]
+]);
+
+craftingTable.removeRecipe(<item:immersiveengineering:cloche>);
+craftingTable.addShaped("recipe.crafting.immersiveengineering.cloche", <item:immersiveengineering:cloche>, [
+    [<tag:items:forge:glass>, <item:emendatusenigmatica:lumium_gear>, <tag:items:forge:glass>],
+    [<tag:items:forge:glass>, <item:minecraft:air>, <tag:items:forge:glass>],
+    [<item:emendatusenigmatica:aluminum_gear>, <item:immersiveengineering:crate>, <item:emendatusenigmatica:aluminum_gear>]
 ]);

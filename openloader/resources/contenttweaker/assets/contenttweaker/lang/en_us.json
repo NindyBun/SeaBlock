@@ -65,5 +65,9 @@
     "fluid.contenttweaker.liquid_blue": "Liquid Production",
     "fluid.contenttweaker.liquid_purple": "Liquid Utility",
     "fluid.contenttweaker.liquid_yellow": "Liquid Chemical",
-    "fluid.contenttweaker.liquid_white": "Liquid Space"
+    "fluid.contenttweaker.liquid_white": "Liquid Space",
+
+    "item.contenttweaker.common_geode": "Common Geode",
+    "item.contenttweaker.uncommon_geode": "Uncommon Geode",
+    "item.contenttweaker.rare_geode": "Rare Geode"
 }

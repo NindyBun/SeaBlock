@@ -1,0 +1,3 @@
+#840F59 minecraft:bedrock
+#AD9EB5 minecraft:oak_leaves
+#DC3458 minecraft:stone

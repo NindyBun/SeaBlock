@@ -4,6 +4,9 @@ craftingTable.addShapeless("recipe.crafting.cobble_2", <item:minecraft:gravel>, 
 craftingTable.addShapeless("recipe.crafting.gravel_1", <item:minecraft:sand>, [<item:minecraft:gravel>, <item:immersiveengineering:hammer>.anyDamage()]);
 craftingTable.addShapeless("recipe.crafting.gravel_2", <item:minecraft:sand>, [<item:minecraft:gravel>, <item:emendatusenigmatica:enigmatic_hammer>.anyDamage()]);
 
+craftingTable.addShapeless("recipe.crafting.sand_1", <item:minecraft:dirt>, [<item:minecraft:sand>, <item:immersiveengineering:hammer>.anyDamage()]);
+craftingTable.addShapeless("recipe.crafting.sand_2", <item:minecraft:dirt>, [<item:minecraft:sand>, <item:emendatusenigmatica:enigmatic_hammer>.anyDamage()]);
+
 craftingTable.addShapeless("recipe.crafting.priming_dust", <item:contenttweaker:priming_dust>*8, [<item:minecraft:sand>, <item:minecraft:gravel>]);
 
 craftingTable.addShaped("recipe.crafting.red_primer", <item:contenttweaker:red_primer>, [
@@ -40,4 +43,9 @@ craftingTable.addShaped("recipe.crafting.white_primer", <item:contenttweaker:whi
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
     [<item:minecraft:air>, <item:minecraft:air>, <item:contenttweaker:priming_dust>],
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+]);
+
+craftingTable.addShaped("recipe.crafting.blackstone", <item:minecraft:blackstone>, [
+    [<item:minecraft:stone>, <item:immersiveengineering:coal_coke>],
+    [<item:immersiveengineering:coal_coke>, <item:minecraft:coal>]
 ]);

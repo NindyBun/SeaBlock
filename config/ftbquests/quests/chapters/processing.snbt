@@ -1,0 +1,262 @@
+{
+	id: "6650B0DE038AED96"
+	group: ""
+	order_index: 2
+	filename: "processing"
+	title: "Processing"
+	icon: "emendatusenigmatica:iron_chunk"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "minecraft:iron_ingot"
+			x: -0.5d
+			y: -2.0d
+			dependencies: ["275B6D4E697BCC9A"]
+			id: "0AB7AEA4F3B8EAA1"
+			tasks: [{
+				id: "7C4BB8F0DFF5EC8A"
+				type: "checkmark"
+				title: "Tier 1 "
+			}]
+		}
+		{
+			icon: "contenttweaker:iron_dirty_dust"
+			x: -0.5d
+			y: -0.5d
+			dependencies: ["0AB7AEA4F3B8EAA1"]
+			id: "5786AB29FD5D4723"
+			tasks: [{
+				id: "7A7FB7DBF1CB373B"
+				type: "checkmark"
+				title: "Tier 2"
+			}]
+		}
+		{
+			icon: "contenttweaker:iron_fragment"
+			x: -0.5d
+			y: 1.0d
+			dependencies: ["5786AB29FD5D4723"]
+			id: "79E5864B63C50EDE"
+			tasks: [{
+				id: "2FE30E94A769F937"
+				type: "checkmark"
+				title: "Tier 3"
+			}]
+		}
+		{
+			icon: "contenttweaker:iron_shard"
+			x: -0.5d
+			y: 2.5d
+			dependencies: ["79E5864B63C50EDE"]
+			id: "73F311D10257C0B9"
+			tasks: [{
+				id: "668F1589FC42D89A"
+				type: "checkmark"
+				title: "Tier 4"
+			}]
+		}
+		{
+			icon: "contenttweaker:iron_crystal"
+			x: -0.5d
+			y: 4.0d
+			dependencies: ["73F311D10257C0B9"]
+			id: "0078578B09B62A96"
+			tasks: [{
+				id: "70CAD76C4C98A01B"
+				type: "checkmark"
+				title: "Tier 5"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			dependencies: ["0AB7AEA4F3B8EAA1"]
+			id: "19383578D6662247"
+			tasks: [{
+				id: "2F9A2729A83F7179"
+				type: "item"
+				item: "createaddition:heater"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			dependencies: ["19383578D6662247"]
+			id: "52DAB55AE9E1BC06"
+			tasks: [{
+				id: "5A51951B48F87D6F"
+				type: "item"
+				item: "thermal:chiller_ingot_cast"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -0.5d
+			dependencies: ["5786AB29FD5D4723"]
+			id: "0F3DE52CDD4B9514"
+			tasks: [{
+				id: "41D74A41899EE830"
+				type: "item"
+				item: "thermal:machine_pulverizer"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			dependencies: ["79E5864B63C50EDE"]
+			id: "7E0438C3571EF194"
+			tasks: [{
+				id: "0FFF1A793D37F13C"
+				type: "item"
+				item: "thermal:machine_smelter"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.0d
+			dependencies: ["0078578B09B62A96"]
+			id: "627374862D477E0D"
+			tasks: [{
+				id: "2D56E4CB81A9BD8C"
+				type: "item"
+				item: "mekanism:chemical_crystallizer"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.5d
+			dependencies: ["73F311D10257C0B9"]
+			id: "5444EC770092C064"
+			tasks: [{
+				id: "093336E511BF9DA7"
+				type: "item"
+				item: {
+					id: "immersiveengineering:graphite_electrode"
+					Count: 1b
+					tag: {
+						graphDmg: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Ore Processing"
+			x: -0.5d
+			y: -3.5d
+			id: "275B6D4E697BCC9A"
+			tasks: [{
+				id: "7BAF91B9A85C969B"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -3.5d
+			id: "5B25D71835BDB58F"
+			tasks: [{
+				id: "00EEC793BCC00E36"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.0d
+			id: "6A5D0675D1799EAF"
+			tasks: [{
+				id: "37962421636807B6"
+				type: "item"
+				item: "minecraft:piston"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -0.5d
+			id: "40E3B0573767F800"
+			tasks: [{
+				id: "42C900352D61BD86"
+				type: "item"
+				item: "thermal:machine_press"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -0.5d
+			id: "171703FDD26239D9"
+			tasks: [{
+				id: "6B23AD7E1BA9A8FC"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.0d
+			id: "12581D1D9D5551B1"
+			tasks: [{
+				id: "5E1B3D30F3A96811"
+				type: "item"
+				item: "thermal:machine_smelter"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -2.0d
+			id: "334D984C12117A13"
+			tasks: [{
+				id: "1B45A375438449CA"
+				type: "item"
+				item: "immersiveengineering:conveyor_covered"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -0.5d
+			id: "3FE7A6604FF7FC5C"
+			tasks: [{
+				id: "02CAE044A2EDCAF0"
+				type: "item"
+				item: "thermal:machine_crafter"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 1.0d
+			id: "6A06F02CDFDD0C00"
+			tasks: [{
+				id: "65C7885775550514"
+				type: "item"
+				item: "integratedcrafting:part_interface_crafting"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.0d
+			id: "78C5893D7954E39D"
+			tasks: [{
+				id: "17F5E20795EC1807"
+				type: "item"
+				item: "prettypipes:crafting_terminal"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.0d
+			id: "2EE843696F223728"
+			tasks: [{
+				id: "7D01F490CA5F9DDF"
+				type: "item"
+				item: "create:mechanical_crafter"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -3.5d
+			id: "379F9B5919A2EB38"
+			tasks: [{
+				id: "7FA2C36D546396C4"
+				type: "checkmark"
+			}]
+		}
+	]
+}

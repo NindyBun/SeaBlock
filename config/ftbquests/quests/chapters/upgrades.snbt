@@ -1,0 +1,253 @@
+{
+	id: "57A518535802FF45"
+	group: ""
+	order_index: 5
+	filename: "upgrades"
+	title: "Upgrades"
+	icon: {
+		id: "travellersboots:travellersbootmkiv"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -4.5d
+			y: -0.5d
+			id: "5A94EAE8C6AF8923"
+			tasks: [{
+				id: "7C7C7037450456F9"
+				type: "item"
+				item: {
+					id: "travellersboots:travellersbootmkii"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.0d
+			dependencies: ["5A94EAE8C6AF8923"]
+			id: "4E0C2170B39B4B76"
+			tasks: [{
+				id: "22F9420AB6890DF3"
+				type: "item"
+				item: {
+					id: "travellersboots:travellersbootmkiii"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.5d
+			dependencies: ["4E0C2170B39B4B76"]
+			id: "3EE77AE351B7E1A2"
+			tasks: [{
+				id: "69E9588C63E715A4"
+				type: "item"
+				item: {
+					id: "travellersboots:travellersbootmkiv"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			icon: "contenttweaker:diamond_drill"
+			x: -3.0d
+			y: -0.5d
+			id: "4973E2E70902ACE0"
+			tasks: [{
+				id: "0A505632EE75DF1F"
+				type: "item"
+				item: "contenttweaker:red_vile"
+				count: 8L
+			}]
+			rewards: [{
+				id: "5D283F7456312220"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "diamond_drill"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			dependencies: ["4973E2E70902ACE0"]
+			id: "43B02390D75D050E"
+			tasks: [{
+				id: "0FEDA12A8E79E0E9"
+				type: "item"
+				item: "contenttweaker:steel_drill"
+			}]
+			rewards: [{
+				id: "40EFF4B0FA7AB13E"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "steel_drill"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			id: "1A09882F546D72E7"
+			tasks: [{
+				id: "3F30B4D29E54D7F9"
+				type: "item"
+				item: "thermal:upgrade_augment_1"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			id: "67833BC342B2D796"
+			tasks: [{
+				id: "2BE730E843F02239"
+				type: "item"
+				item: "thermal:upgrade_augment_2"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.5d
+			id: "570EB801EABBCD76"
+			tasks: [{
+				id: "0C70C64396943116"
+				type: "item"
+				item: "thermal:upgrade_augment_3"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			id: "3F6EB6B8372BFA4D"
+			tasks: [{
+				id: "61FF08B6AEC51169"
+				type: "item"
+				item: "prettypipes:low_speed_module"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			id: "0903B2C1176B34F5"
+			tasks: [{
+				id: "0312444980A27178"
+				type: "item"
+				item: "prettypipes:medium_speed_module"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			id: "47B53B7ECB9C4071"
+			tasks: [{
+				id: "03E2E65296D3F831"
+				type: "item"
+				item: "prettypipes:high_speed_module"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.0d
+			id: "5BA0A29C9D7E6322"
+			tasks: [{
+				id: "128F954A82A6F10D"
+				type: "item"
+				item: "thermal:machine_speed_augment"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			id: "0744D00BAF06EEBC"
+			tasks: [{
+				id: "2ADF20B230F2C08A"
+				type: "item"
+				item: "thermal:machine_efficiency_augment"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.5d
+			id: "73E87A11C2D4F285"
+			tasks: [{
+				id: "4AC1CB9974ED05E5"
+				type: "item"
+				item: "mekanism:upgrade_speed"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			id: "4CEF37C92FE33017"
+			tasks: [{
+				id: "06E17C5B9DF6AD89"
+				type: "item"
+				item: "mekanism:upgrade_energy"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			id: "4B72558B446F1C52"
+			tasks: [{
+				id: "18EC8DE6215F5807"
+				type: "item"
+				item: "mekanism:basic_tier_installer"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			id: "1F4A0C227B23F9D0"
+			tasks: [{
+				id: "2CAFCC338EBA2211"
+				type: "item"
+				item: "mekanism:advanced_tier_installer"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			id: "45448C4D94253852"
+			tasks: [{
+				id: "2BD62B2D2BBECFD1"
+				type: "item"
+				item: "mekanism:elite_tier_installer"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			id: "02E0AFF0FA58FAC7"
+			tasks: [{
+				id: "04314AA08E356CCD"
+				type: "item"
+				item: "mekanism:ultimate_tier_installer"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.0d
+			id: "655C2B69B445154E"
+			tasks: [{
+				id: "5DC6779CFEA3F625"
+				type: "item"
+				item: "prettypipes:pressurizer"
+			}]
+		}
+	]
+}

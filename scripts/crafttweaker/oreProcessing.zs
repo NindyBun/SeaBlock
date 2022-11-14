@@ -220,10 +220,10 @@ for i, ore in ores{
     /* furnace.removeRecipe(ingots[i]);
     blastFurnace.removeRecipe(ingots[i]); */
 
-    furnace.addRecipe("recipe.furnace1."+i, ingots[i], dirtyDusts[i], 0.3, 200);
-    furnace.addRecipe("recipe.furnace2."+i, ingots[i], ores[i], 0.7, 200);
-    blastFurnace.addRecipe("recipe.blastfurnace_1."+i, ingots[i], dirtyDusts[i], 0.3, 100);
-    blastFurnace.addRecipe("recipe.blastfurnace_2."+i, ingots[i], ores[i], 0.7, 100);
+    furnace.addRecipe("recipe.furnace_1.dirty_dust_to_ingot/"+i, ingots[i], dirtyDusts[i], 0.3, 200);
+    furnace.addRecipe("recipe.furnace_2.ore_to_ingot/"+i, ingots[i], ores[i], 0.7, 200);
+    blastFurnace.addRecipe("recipe.blastfurnace_1.dirty_dust_to_ingot/"+i, ingots[i], dirtyDusts[i], 0.3, 100);
+    blastFurnace.addRecipe("recipe.blastfurnace_2.ore_to_ingot/"+i, ingots[i], ores[i], 0.7, 100);
 
     /* if (ingots[i] == <item:minecraft:iron_ingot>) {
         <recipetype:thermal:smelter>.removeRecipe([ingots[i], <item:thermal:nickel_ingot>, <item:thermal:rich_slag>]);
@@ -236,24 +236,24 @@ for i, ore in ores{
     //<recipetype:thermal:smelter>.removeRecipe(ingots[i]);
 
     // Chunk/DirtyDust -> Magma Crucible -> Blast Chiller -> 2 Ingots
-    <recipetype:thermal:chiller>.addRecipe("recipe.chiller."+i, ingots[i], <item:thermal:chiller_ingot_cast>, molten_ingots[i]*144, powChiller);
-    <recipetype:thermal:crucible>.addRecipe("recipe.crucible_1."+i, molten_ingots[i]*288, dirtyDusts[i], powMGCrucible);
-    <recipetype:thermal:crucible>.addRecipe("recipe.crucible_2."+i, molten_ingots[i]*288, ores[i], powMGCrucible);
+    <recipetype:thermal:chiller>.addRecipe("recipe.thermal.chiller.molten_ingot_to_ingot/"+i, ingots[i], <item:thermal:chiller_ingot_cast>, molten_ingots[i]*144, powChiller);
+    <recipetype:thermal:crucible>.addRecipe("recipe.thermal.crucible_1.dirty_dust_to_molten_ingot/"+i, molten_ingots[i]*288, dirtyDusts[i], powMGCrucible);
+    <recipetype:thermal:crucible>.addRecipe("recipe.thermal.crucible_2.ore_to_molten_ingot/"+i, molten_ingots[i]*288, ores[i], powMGCrucible);
 
     //Chunk/Fragment -> Pulverizer -> 2.5 DirtyDusts
-    <recipetype:thermal:pulverizer>.addRecipe("recipe.pulverizer_1."+i, [dirtyDusts[i]*2, dirtyDusts[i]%50] , fragments[i], 0, powPulverizer);
-    <recipetype:thermal:pulverizer>.addRecipe("recipe.pulverizer_2."+i, [dirtyDusts[i]*2, dirtyDusts[i]%50] , ores[i], 0, powPulverizer);
+    <recipetype:thermal:pulverizer>.addRecipe("recipe.thermal.pulverizer_1.fragment_to_dirty_dust/"+i, [dirtyDusts[i]*2, dirtyDusts[i]%50] , fragments[i], 0, powPulverizer);
+    <recipetype:thermal:pulverizer>.addRecipe("recipe.thermal.pulverizer_2.ore_to_dirty_dust/"+i, [dirtyDusts[i]*2, dirtyDusts[i]%50] , ores[i], 0, powPulverizer);
 
     //Chunk/Shard -> Induction Smelter -> 1.5x ~ 4.5x Fragments
-    <recipetype:thermal:smelter>.addRecipe("recipe.smelter_1."+i, [fragments[i]%150, <item:thermal:slag>], [shards[i]], 0, powInductionSmelter);
-    <recipetype:thermal:smelter>.addRecipe("recipe.smelter_2."+i, [fragments[i]%150, <item:thermal:slag>], [ores[i]], 0, powInductionSmelter);
+    <recipetype:thermal:smelter>.addRecipe("recipe.thermal.smelter_1.shard_to_fragment/"+i, [fragments[i]%150, <item:thermal:slag>], [shards[i]], 0, powInductionSmelter);
+    <recipetype:thermal:smelter>.addRecipe("recipe.thermal.smelter_2.ore_to_fragment/"+i, [fragments[i]%150, <item:thermal:slag>], [ores[i]], 0, powInductionSmelter);
 
     //Chunk/Crystal -> Arc Furnace -> 4x Shards
-    <recipetype:immersiveengineering:arc_furnace>.addRecipe("recipe.arcfurnace_1."+i, crystals[i], [], timeArcFurnace, powArcFurnace, [shards[i]*4], <item:immersiveengineering:slag>);
-    <recipetype:immersiveengineering:arc_furnace>.addRecipe("recipe.arcfurnace_2."+i, ores[i], [], timeArcFurnace, powArcFurnace, [shards[i]*4], <item:immersiveengineering:slag>);
+    <recipetype:immersiveengineering:arc_furnace>.addRecipe("recipe.immersiveengineering.arcfurnace_1.crystal_to_shard/"+i, crystals[i], [], timeArcFurnace, powArcFurnace, [shards[i]*4], <item:immersiveengineering:slag>);
+    <recipetype:immersiveengineering:arc_furnace>.addRecipe("recipe.immersiveengineering.arcfurnace_2.ore_to_shard/"+i, ores[i], [], timeArcFurnace, powArcFurnace, [shards[i]*4], <item:immersiveengineering:slag>);
 
     //Chunk -> Chemical Dissolution Chamber -> Chemical Washer -> Chemical Crystallizer -> 5x Crystals
-    <recipetype:mekanism:dissolution>.addRecipe("recipe.dissolution."+i, ores[i], <gas:mekanism:sulfuric_acid>, dirtySlurrys[i]*1000);
-    <recipetype:mekanism:washing>.addRecipe("recipe.washing."+i, <tag:fluids:minecraft:water>*10, dirtySlurrys[i]*1, cleanSlurrys[i]*1);
-    <recipetype:mekanism:crystallizing>.addRecipe("recipe.crystallizing"+i, cleanSlurrys[i]*200, crystals[i]);
+    <recipetype:mekanism:dissolution>.addRecipe("recipe.mekanism.dissolution.ore_to_dirty_slurry/"+i, ores[i], <gas:mekanism:sulfuric_acid>, dirtySlurrys[i]*1000);
+    <recipetype:mekanism:washing>.addRecipe("recipe.mekanism.washing.dirty_slurry_to_clean_clurry"+i, <tag:fluids:minecraft:water>*10, dirtySlurrys[i]*1, cleanSlurrys[i]*1);
+    <recipetype:mekanism:crystallizing>.addRecipe("recipe.mekanism.crystallizing.clean_slurry_to_crystal/"+i, cleanSlurrys[i]*200, crystals[i]);
 }

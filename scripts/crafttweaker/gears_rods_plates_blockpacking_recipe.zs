@@ -38,8 +38,8 @@ var pow_thermal_press = 1000;
 <recipetype:immersiveengineering:metal_press>.removeByRegex("immersiveengineering:metalpress/gear.*");
 <recipetype:thermal:press>.removeByRegex("thermal:machine/press/press.*ingot_to_gear");
 for i, ingot in ingotsToGears {
-    <recipetype:thermal:press>.addRecipe("recipe.thermal.gear."+i, [ingot[1]], <fluid:minecraft:empty>, [ingot[0]*2, <item:immersiveengineering:mold_gear>], pow_thermal_press);
-    <recipetype:immersiveengineering:metal_press>.addRecipe("recipe.immersiveengineering.gear."+i, ingot[0]*2, <item:immersiveengineering:mold_gear>, pow_ie_press, ingot[1]);
+    <recipetype:thermal:press>.addRecipe("recipe.thermal.press.ingot_to_gear/"+i, [ingot[1]], <fluid:minecraft:empty>, [ingot[0]*2, <item:immersiveengineering:mold_gear>], pow_thermal_press);
+    <recipetype:immersiveengineering:metal_press>.addRecipe("recipe.immersiveengineering.metalpress.ingot_to_gear/"+i, ingot[0]*2, <item:immersiveengineering:mold_gear>, pow_ie_press, ingot[1]);
 }
 
 var ingotsToPlates as IItemStack[][] = [
@@ -71,10 +71,10 @@ var ingotsToPlates as IItemStack[][] = [
 <recipetype:thermal:press>.removeByRegex("thermal:machine/press/press.*ingot_to_plate");
 <recipetype:create:pressing>.removeByRegex("create:pressing/.*_ingot");
 for i, ingot in ingotsToPlates {
-    <recipetype:thermal:press>.addRecipe("recipe.thermal.plate."+i, [ingot[1]], <fluid:minecraft:empty>, [ingot[0], <item:immersiveengineering:mold_plate>], pow_thermal_press);
-    <recipetype:immersiveengineering:metal_press>.addRecipe("recipe.immersiveengineering.plate."+i, ingot[0], <item:immersiveengineering:mold_plate>, pow_ie_press, ingot[1]);
-    <recipetype:create:pressing>.addRecipe("recipe.create.plate."+i, [ingot[1]], ingot[0]);
-    craftingTable.addShapeless("recipe.crafting.plate."+i, ingot[1], [ingot[0], <item:immersiveengineering:hammer>.anyDamage()]);
+    <recipetype:thermal:press>.addRecipe("recipe.thermal.press.ingot_to_plate/"+i, [ingot[1]], <fluid:minecraft:empty>, [ingot[0], <item:immersiveengineering:mold_plate>], pow_thermal_press);
+    <recipetype:immersiveengineering:metal_press>.addRecipe("recipe.immersiveengineering.metalpress.ingot_to_plate/"+i, ingot[0], <item:immersiveengineering:mold_plate>, pow_ie_press, ingot[1]);
+    <recipetype:create:pressing>.addRecipe("recipe.create.pressing.ingot_to_plate/"+i, [ingot[1]], ingot[0]);
+    craftingTable.addShapeless("recipe.crafting.ingot_to_plate/"+i, ingot[1], [ingot[0], <item:immersiveengineering:hammer>.anyDamage()]);
 }
 
 var ingotsToRods as IItemStack[][] = [
@@ -105,8 +105,8 @@ var ingotsToRods as IItemStack[][] = [
 <recipetype:immersiveengineering:metal_press>.removeByRegex("immersiveengineering:metalpress/rod.*");
 <recipetype:thermal:press>.removeByRegex("thermal:machine/press/press.*ingot_to_rod");
 for i, ingot in ingotsToRods {
-    <recipetype:thermal:press>.addRecipe("recipe.thermal.rod."+i, [ingot[1]*4], <fluid:minecraft:empty>, [ingot[0], <item:immersiveengineering:mold_rod>], pow_thermal_press);
-    <recipetype:immersiveengineering:metal_press>.addRecipe("recipe.immersiveengineering.rod."+i, ingot[0], <item:immersiveengineering:mold_rod>, pow_ie_press, ingot[1]*4);
+    <recipetype:thermal:press>.addRecipe("recipe.thermal.press.ingot_to_rod/"+i, [ingot[1]*4], <fluid:minecraft:empty>, [ingot[0], <item:immersiveengineering:mold_rod>], pow_thermal_press);
+    <recipetype:immersiveengineering:metal_press>.addRecipe("recipe.immersiveengineering.metalpress.ingot_to_rod/"+i, ingot[0], <item:immersiveengineering:mold_rod>, pow_ie_press, ingot[1]*4);
 }
 
 var ingotsToWires as IItemStack[][] = [
@@ -121,8 +121,8 @@ var ingotsToWires as IItemStack[][] = [
 <recipetype:immersiveengineering:metal_press>.removeByRegex("immersiveengineering:metalpress/wire.*");
 <recipetype:thermal:press>.removeByRegex("thermal:machine/press/press.*ingot_to_wire");
 for i, ingot in ingotsToWires {
-    <recipetype:thermal:press>.addRecipe("recipe.thermal.wire."+i, [ingot[1]*4], <fluid:minecraft:empty>, [ingot[0], <item:immersiveengineering:mold_wire>], pow_thermal_press);
-    <recipetype:immersiveengineering:metal_press>.addRecipe("recipe.immersiveengineering.wire."+i, ingot[0], <item:immersiveengineering:mold_wire>, pow_ie_press, ingot[1]*4);
+    <recipetype:thermal:press>.addRecipe("recipe.thermal.press.ingot_to_wire/"+i, [ingot[1]*4], <fluid:minecraft:empty>, [ingot[0], <item:immersiveengineering:mold_wire>], pow_thermal_press);
+    <recipetype:immersiveengineering:metal_press>.addRecipe("recipe.immersiveengineering.metalpress.ingot_to_wire/"+i, ingot[0], <item:immersiveengineering:mold_wire>, pow_ie_press, ingot[1]*4);
 }
 
 var wiresToCoils as IItemStack[][] = [
@@ -191,6 +191,7 @@ var ingotsToBlocks as IItemStack[][] = [
 
 var pow_thermal_packing = 2400;
 for i, ingot in ingotsToBlocks {
-    <recipetype:thermal:press>.addRecipe("recipe.thermal.packing_3x3."+i, [ingot[1]], <fluid:minecraft:empty>, [ingot[0]*9, <item:thermal:press_packing_3x3_die>], pow_thermal_packing);
-    <recipetype:thermal:press>.addRecipe("recipe.thermal.unpacking."+i, [ingot[0]*9], <fluid:minecraft:empty>, [ingot[1], <item:thermal:press_unpacking_die>], pow_thermal_packing);
+    <recipetype:thermal:press>.addRecipe("recipe.thermal.packing_3x3/ingot_to_block/"+i, [ingot[1]], <fluid:minecraft:empty>, [ingot[0]*9, <item:thermal:press_packing_3x3_die>], pow_thermal_packing);
+    <recipetype:thermal:press>.addRecipe("recipe.thermal.unpacking/block_to_ingot/"+i, [ingot[0]*9], <fluid:minecraft:empty>, [ingot[1], <item:thermal:press_unpacking_die>], pow_thermal_packing);
 }
+

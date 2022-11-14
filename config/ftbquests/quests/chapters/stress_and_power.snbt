@@ -1,0 +1,412 @@
+{
+	id: "799074E35516296F"
+	group: ""
+	order_index: 4
+	filename: "stress_and_power"
+	title: "Stress and Power"
+	icon: "steampowered:bronze_flywheel"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -9.0d
+			y: -2.0d
+			id: "4FD3827CD13ACB18"
+			tasks: [{
+				id: "29B2DF5C0246AA81"
+				type: "item"
+				item: "solarflux:sp_1"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -0.5d
+			id: "38B9258DEF26DB07"
+			tasks: [{
+				id: "566CCB8CF7D59D09"
+				type: "item"
+				item: "solarflux:sp_2"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 1.0d
+			id: "12C9B33DD9F9F338"
+			tasks: [{
+				id: "338F4CD20C16065B"
+				type: "item"
+				item: "solarflux:sp_3"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 2.5d
+			id: "4D2DA019BB4025DD"
+			tasks: [{
+				id: "31CC59403ACE7E5A"
+				type: "item"
+				item: "solarflux:sp_4"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 4.0d
+			id: "19686ED7A1887752"
+			tasks: [{
+				id: "5963725B4EB3D907"
+				type: "item"
+				item: "solarflux:sp_5"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 5.5d
+			id: "58FA0D0769AB73AC"
+			tasks: [{
+				id: "5ABCAC80523C5E31"
+				type: "item"
+				item: "solarflux:sp_6"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 7.0d
+			id: "3DD3DA85CADB9039"
+			tasks: [{
+				id: "59B88D4D19681D21"
+				type: "item"
+				item: "solarflux:sp_7"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 8.5d
+			id: "4727E5B2E6D1C17B"
+			tasks: [{
+				id: "3D200CC0211DB0BF"
+				type: "item"
+				item: "solarflux:sp_8"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -2.0d
+			id: "5826A01A3E1D1277"
+			tasks: [{
+				id: "651FBF9E1F4D1C5B"
+				type: "item"
+				item: "immersiveengineering:windmill"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -0.5d
+			id: "76426049BFF7EDAA"
+			tasks: [{
+				id: "50B491949029D5DB"
+				type: "item"
+				item: "immersiveengineering:windmill_sail"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.0d
+			id: "1075889C2B38CDC2"
+			tasks: [{
+				id: "6A8DA9A3C397C8FB"
+				type: "item"
+				item: "immersiveengineering:watermill"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -0.5d
+			id: "48BF1900FA810F86"
+			tasks: [{
+				id: "7AEB7C109B738636"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -0.5d
+			id: "3C94DEB425205EB3"
+			tasks: [{
+				id: "1A97EE252863CC03"
+				type: "item"
+				item: "create:flywheel"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.0d
+			id: "2D044A8B196DB30C"
+			tasks: [{
+				id: "175D0BF60724F585"
+				type: "item"
+				item: "steampowered:alternator"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			id: "1484D28A923A8766"
+			tasks: [{
+				id: "74637E97E4EAA847"
+				type: "item"
+				item: "steampowered:bronze_flywheel"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			id: "522936E728FA069E"
+			tasks: [{
+				id: "43AA60AC7FEB4E98"
+				type: "item"
+				item: "steampowered:cast_iron_flywheel"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.0d
+			id: "040B711EEDC1168B"
+			tasks: [{
+				id: "79F92C1A958E0C1B"
+				type: "item"
+				item: "steampowered:steel_flywheel"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -3.5d
+			id: "5A9C37B282C3D155"
+			tasks: [{
+				id: "06450E1B38C5280D"
+				type: "item"
+				item: "create:windmill_bearing"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -0.5d
+			id: "49DBC8AAD7A47B0E"
+			tasks: [{
+				id: "57946187055C143B"
+				type: "item"
+				item: "createaddition:furnace_burner"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			id: "3E14F351FBAA8984"
+			tasks: [{
+				id: "753FDA5F4B546917"
+				type: "item"
+				item: "immersiveengineering:capacitor_lv"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			id: "5B24F1503E1C4AE3"
+			tasks: [{
+				id: "072EDC96CF53B3F9"
+				type: "item"
+				item: "immersiveengineering:capacitor_mv"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			id: "104B8BFBECD0CE4D"
+			tasks: [{
+				id: "42F8CCC35193AF8E"
+				type: "item"
+				item: "immersiveengineering:capacitor_hv"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			id: "4888820B92B42A86"
+			tasks: [{
+				id: "77650AFB04986B55"
+				type: "item"
+				item: "mekanism:basic_energy_cube"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.0d
+			id: "7E962C44859D8533"
+			tasks: [{
+				id: "540A845A99A782E2"
+				type: "item"
+				item: "mekanism:basic_induction_cell"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.0d
+			id: "58DAEE5EBC493AF9"
+			tasks: [{
+				id: "3B05F0E6DDAE1663"
+				type: "item"
+				item: "mekanism:advanced_induction_cell"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 4.0d
+			id: "45ADCBB0A7360540"
+			tasks: [{
+				id: "0264DEC957C54850"
+				type: "item"
+				item: "mekanism:elite_induction_cell"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 4.0d
+			id: "36FA19420442A067"
+			tasks: [{
+				id: "5CBAB03CD803BB7D"
+				type: "item"
+				item: "mekanism:ultimate_induction_cell"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			id: "37B03D421D36CF39"
+			tasks: [{
+				id: "1EA366591CD2CF04"
+				type: "item"
+				item: "integrateddynamics:coal_generator"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			id: "4ABE240238123E46"
+			tasks: [{
+				id: "62F3B1D1AF027E4F"
+				type: "item"
+				item: "mekanism:boiler_valve"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.0d
+			id: "090EB1AA6E04E5A2"
+			tasks: [{
+				id: "528244BF3CF2C270"
+				type: "item"
+				item: "thermal:crude_oil_bucket"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			id: "78E13B9FD13D35F7"
+			tasks: [{
+				id: "408161A8AA59258A"
+				type: "item"
+				item: "immersivepetroleum:gasoline_bucket"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.0d
+			id: "05BF32679CDC0A5E"
+			tasks: [{
+				id: "0C4ABC72B2E7480E"
+				type: "item"
+				item: "immersivepetroleum:gas_generator"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 4.0d
+			id: "1F2720B939A7749D"
+			tasks: [{
+				id: "7C705633D9F909F3"
+				type: "item"
+				item: "thermal:machine_refinery"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 7.5d
+			id: "5F20692504A86BFC"
+			tasks: [{
+				id: "183FD25F8155B5D4"
+				type: "item"
+				item: "mekanismgenerators:gas_burning_generator"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 10.5d
+			id: "6EE0C8448F6CE095"
+			tasks: [{
+				id: "14B498878CD7F7AA"
+				type: "item"
+				item: "mekanismgenerators:fusion_reactor_port"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 10.5d
+			id: "1710068E52B1CF99"
+			tasks: [{
+				id: "3550A690149AF9BD"
+				type: "item"
+				item: "mekanismgenerators:turbine_blade"
+			}]
+		}
+		{
+			x: -10.5d
+			y: 1.0d
+			id: "5188E71FF44AD728"
+			tasks: [{
+				id: "158C585DEB52F470"
+				type: "item"
+				item: "mekanismgenerators:advanced_solar_generator"
+			}]
+		}
+		{
+			x: -10.5d
+			y: -0.5d
+			id: "68E8277506258EFC"
+			tasks: [{
+				id: "2807A3E542062709"
+				type: "item"
+				item: "mekanismgenerators:solar_generator"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -3.5d
+			id: "6F34539A70BE709A"
+			tasks: [{
+				id: "37E93CD4D63310A6"
+				type: "item"
+				item: "mekanismgenerators:wind_generator"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 2.5d
+			id: "0B2E9D29CB0125FA"
+			tasks: [{
+				id: "35F6EC460FC20DAB"
+				type: "item"
+				item: "mekanismgenerators:bio_generator"
+			}]
+		}
+	]
+}
