@@ -69,5 +69,8 @@
 
     "item.contenttweaker.common_geode": "Common Geode",
     "item.contenttweaker.uncommon_geode": "Uncommon Geode",
-    "item.contenttweaker.rare_geode": "Rare Geode"
+    "item.contenttweaker.rare_geode": "Rare Geode",
+
+    "item.contenttweaker.clay_rod_cast": "Clay Rod Mold",
+    "item.contenttweaker.rod_cast": "Rod Mold"
 }

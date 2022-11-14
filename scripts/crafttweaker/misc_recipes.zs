@@ -49,3 +49,10 @@ craftingTable.addShaped("recipe.crafting.blackstone", <item:minecraft:blackstone
     [<item:minecraft:stone>, <item:immersiveengineering:coal_coke>],
     [<item:immersiveengineering:coal_coke>, <item:minecraft:coal>]
 ]);
+
+craftingTable.addShaped("recipe.crafting.clay_rod_cast", <item:contenttweaker:clay_rod_cast>, [
+    [<item:minecraft:air>, <item:minecraft:clay>, <item:minecraft:air>]
+    [<item:minecraft:clay>, <tag:items:forge:rods>, <item:minecraft:clay>]
+    [<item:minecraft:air>, <item:minecraft:clay>, <item:minecraft:air>]
+]);
+furnace.addRecipe("recipe.furnace.clay_rod_cast", <item:contenttweaker:rod_cast>, <item:contenttweaker:clay_rod_cast>, 0, 200);

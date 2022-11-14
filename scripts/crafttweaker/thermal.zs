@@ -18,3 +18,52 @@ craftingTable.addShaped("recipe.crafting.thermal.machine_frame", <item:thermal:m
     [<item:immersiveengineering:component_iron>, <item:emendatusenigmatica:tin_gear>, <item:immersiveengineering:component_iron>],
     [<item:immersiveengineering:treated_wood_horizontal>, <item:immersiveengineering:component_iron>, <item:immersiveengineering:treated_wood_horizontal>]
 ]);
+
+craftingTable.removeRecipe(<item:thermal:machine_speed_augment>);
+craftingTable.addShaped("recipe.crafting.thermal.machine_speed_augment", <item:thermal:machine_speed_augment>, [
+    [<item:minecraft:air>, <item:minecraft:gold_ingot>, <item:minecraft:air>],
+    [<item:minecraft:gold_ingot>, <item:thermal:rf_coil>, <item:minecraft:gold_ingot>],
+    [<item:minecraft:air>, <item:minecraft:gold_ingot>, <item:minecraft:air>]
+]);
+
+craftingTable.removeRecipe(<item:thermal:machine_efficiency_augment>);
+craftingTable.addShaped("recipe.crafting.thermal.machine_efficiency_augment", <item:thermal:machine_efficiency_augment>, [
+    [<item:minecraft:air>, <item:emendatusenigmatica:electrum_ingot>, <item:minecraft:air>],
+    [<item:emendatusenigmatica:electrum_ingot>, <item:thermal:rf_coil>, <item:emendatusenigmatica:electrum_ingot>],
+    [<item:minecraft:air>, <item:emendatusenigmatica:electrum_ingot>, <item:minecraft:air>]
+]);
+
+craftingTable.removeRecipe(<item:thermal:dynamo_output_augment>);
+craftingTable.addShaped("recipe.crafting.thermal.dynamo_output_augment", <item:thermal:dynamo_output_augment>, [
+    [<item:minecraft:air>, <item:emendatusenigmatica:silver_ingot>, <item:minecraft:air>],
+    [<item:emendatusenigmatica:silver_ingot>, <item:thermal:rf_coil>, <item:emendatusenigmatica:silver_ingot>],
+    [<item:minecraft:air>, <item:emendatusenigmatica:silver_ingot>, <item:minecraft:air>]
+]);
+
+craftingTable.removeRecipe(<item:thermal:dynamo_fuel_augment>);
+craftingTable.addShaped("recipe.crafting.thermal.dynamo_fuel_augment", <item:thermal:dynamo_fuel_augment>, [
+    [<item:minecraft:air>, <item:emendatusenigmatica:lead_ingot>, <item:minecraft:air>],
+    [<item:emendatusenigmatica:lead_ingot>, <item:thermal:rf_coil>, <item:emendatusenigmatica:lead_ingot>],
+    [<item:minecraft:air>, <item:emendatusenigmatica:lead_ingot>, <item:minecraft:air>]
+]);
+
+craftingTable.removeRecipe(<item:thermal:upgrade_augment_1>);
+craftingTable.addShaped("recipe.crafting.thermal.upgrade_augment_1", <item:thermal:upgrade_augment_1>, [
+    [<item:emendatusenigmatica:invar_ingot>, <item:minecraft:redstone>, <item:emendatusenigmatica:invar_ingot>],
+    [<item:minecraft:redstone>, <item:emendatusenigmatica:bronze_gear>, <item:minecraft:redstone>],
+    [<item:emendatusenigmatica:invar_ingot>, <item:minecraft:redstone>, <item:emendatusenigmatica:invar_ingot>]
+]);
+
+craftingTable.removeRecipe(<item:thermal:upgrade_augment_2>);
+craftingTable.addShaped("recipe.crafting.thermal.upgrade_augment_2", <item:thermal:upgrade_augment_2>, [
+    [<item:emendatusenigmatica:electrum_ingot>, <item:emendatusenigmatica:aluminum_gear>, <item:emendatusenigmatica:electrum_ingot>],
+    [<item:minecraft:redstone_block>, <item:thermal:upgrade_augment_1>, <item:minecraft:redstone_block>],
+    [<item:emendatusenigmatica:electrum_ingot>, <item:emendatusenigmatica:aluminum_gear>, <item:emendatusenigmatica:electrum_ingot>]
+]);
+
+craftingTable.removeRecipe(<item:thermal:upgrade_augment_3>);
+craftingTable.addShaped("recipe.crafting.thermal.upgrade_augment_3", <item:thermal:upgrade_augment_3>, [
+    [<item:emendatusenigmatica:enderium_ingot>, <item:emendatusenigmatica:signalum_gear>, <item:emendatusenigmatica:enderium_ingot>],
+    [<item:immersiveengineering:coil_hv>, <item:thermal:upgrade_augment_2>, <item:immersiveengineering:coil_hv>],
+    [<item:emendatusenigmatica:enderium_ingot>, <item:emendatusenigmatica:signalum_gear>, <item:emendatusenigmatica:enderium_ingot>]
+]);

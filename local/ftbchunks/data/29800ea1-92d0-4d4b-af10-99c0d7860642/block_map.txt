@@ -14,6 +14,7 @@
 #840F59 minecraft:bedrock
 #7C938F create:belt
 #870939 mekanismgenerators:bio_generator
+#63D15D create:blaze_burner
 #FFC34F mekanism:bounding_block
 #02FE08 create:brass_funnel
 #21768E steampowered:bronze_boiler
@@ -81,6 +82,7 @@
 #CA0751 thermal:machine_smelter
 #06AD6F storagenetwork:master
 #E638FD create:mechanical_mixer
+#145137 create:mechanical_press
 #65707C create:mechanical_pump
 #818E93 immersiveengineering:metal_press
 #C4844D create:millstone
