@@ -29,6 +29,7 @@
 #671DB1 create:clutch
 #058353 minecraft:cobblestone
 #B76D44 create:cogwheel
+#BD4F9A storagenetwork:collector
 #F888C9 minecraft:comparator
 #7C100D immersiveengineering:concrete
 #475355 createaddition:connector
@@ -50,6 +51,7 @@
 #A33E07 mekanism:dynamic_tank
 #894AAD mekanism:dynamic_valve
 #54BD67 mekanism:electric_pump
+#131130 storagenetwork:exchange
 #DC0D87 create:fluid_pipe
 #C43945 immersiveengineering:fluid_pump
 #DDC0C3 create:fluid_tank
@@ -66,11 +68,13 @@
 #87B5C3 create:hand_crank
 #B6A923 immersiveengineering:heavy_engineering
 #1A0827 minecraft:hopper
+#099C69 storagenetwork:inventory
 #58EEF9 emendatusenigmatica:iron_ore
 #D7EADE minecraft:iron_ore
 #20FC50 create:item_drain
 #79904E pipez:item_pipe
 #3A2239 prettypipes:item_terminal
+#8AEA80 storagenetwork:kabel
 #6C55C8 create:large_cogwheel
 #72D77D minecraft:lever
 #122A0E contenttweaker:liquid_red
@@ -96,6 +100,7 @@
 #A286E9 contenttweaker:red_water
 #24BE64 minecraft:redstone_torch
 #721B63 minecraft:redstone_wire
+#C8759C storagenetwork:request
 #E493B9 create:rotation_speed_controller
 #D3CCFE create:shaft
 #8E85BD create:smart_fluid_pipe
@@ -111,6 +116,7 @@
 #C64B71 steampowered:steel_steam_engine
 #A6348F create:stockpile_switch
 #DC3458 minecraft:stone
+#3C87BC storagenetwork:storage_kabel
 #9E51B2 create:stressometer
 #3B1D89 minecraft:stripped_oak_log
 #5E72B7 mekanism:structural_glass

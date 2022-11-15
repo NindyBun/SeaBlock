@@ -51,8 +51,13 @@ craftingTable.addShaped("recipe.crafting.blackstone", <item:minecraft:blackstone
 ]);
 
 craftingTable.addShaped("recipe.crafting.clay_rod_cast", <item:contenttweaker:clay_rod_cast>, [
-    [<item:minecraft:air>, <item:minecraft:clay>, <item:minecraft:air>]
-    [<item:minecraft:clay>, <tag:items:forge:rods>, <item:minecraft:clay>]
-    [<item:minecraft:air>, <item:minecraft:clay>, <item:minecraft:air>]
+    [<item:minecraft:air>, <item:minecraft:clay_ball>, <item:minecraft:air>],
+    [<item:minecraft:clay_ball>, <tag:items:forge:rods>, <item:minecraft:clay_ball>],
+    [<item:minecraft:air>, <item:minecraft:clay_ball>, <item:minecraft:air>]
 ]);
 furnace.addRecipe("recipe.furnace.clay_rod_cast", <item:contenttweaker:rod_cast>, <item:contenttweaker:clay_rod_cast>, 0, 200);
+
+craftingTable.addShaped("recipe.crafting.bone_meal", <item:minecraft:bone_meal>*3, [
+    [<tag:items:forge:sand>, <item:mekanism:sawdust>],
+    [<item:mekanism:sawdust>, <item:thermal:niter>]
+]);

@@ -1,1 +1,30 @@
-{"bookGuiScale":0,"clickedVisualize":false,"bookData":{}}
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "storagenetwork:network_book": {
+      "viewedEntries": [
+        "storagenetwork:builder_remote",
+        "storagenetwork:collector_remote",
+        "storagenetwork:picker_remote",
+        "storagenetwork:gs_setup",
+        "storagenetwork:collector",
+        "storagenetwork:exchange",
+        "storagenetwork:crafting_remote",
+        "storagenetwork:request"
+      ],
+      "bookmarks": [],
+      "history": [
+        "storagenetwork:request",
+        "storagenetwork:crafting_remote",
+        "storagenetwork:collector",
+        "storagenetwork:picker_remote",
+        "storagenetwork:builder_remote",
+        "storagenetwork:exchange",
+        "storagenetwork:gs_setup",
+        "storagenetwork:collector_remote"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}
