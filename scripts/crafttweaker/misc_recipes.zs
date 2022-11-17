@@ -61,3 +61,7 @@ craftingTable.addShaped("recipe.crafting.bone_meal", <item:minecraft:bone_meal>*
     [<tag:items:forge:sand>, <item:mekanism:sawdust>],
     [<item:mekanism:sawdust>, <item:thermal:niter>]
 ]);
+
+craftingTable.addShaped("recipe.crafting.leather_from_tough_fabric", <item:minecraft:leather>*3, [
+    [<item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:hemp_fabric>]
+]);

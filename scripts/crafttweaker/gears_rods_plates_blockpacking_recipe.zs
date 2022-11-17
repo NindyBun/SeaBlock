@@ -74,7 +74,10 @@ for i, ingot in ingotsToPlates {
     <recipetype:thermal:press>.addRecipe("recipe.thermal.press.ingot_to_plate/"+i, [ingot[1]], <fluid:minecraft:empty>, [ingot[0], <item:immersiveengineering:mold_plate>], pow_thermal_press);
     <recipetype:immersiveengineering:metal_press>.addRecipe("recipe.immersiveengineering.metalpress.ingot_to_plate/"+i, ingot[0], <item:immersiveengineering:mold_plate>, pow_ie_press, ingot[1]);
     <recipetype:create:pressing>.addRecipe("recipe.create.pressing.ingot_to_plate/"+i, [ingot[1]], ingot[0]);
-    craftingTable.addShapeless("recipe.crafting.ingot_to_plate/"+i, ingot[1], [ingot[0], <item:immersiveengineering:hammer>.anyDamage()]);
+    craftingTable.addShapeless("recipe.crafting.ingot_to_plate_1/"+i, ingot[1], [ingot[0], <item:immersiveengineering:hammer>.anyDamage()]);
+    craftingTable.addShaped("recipe.crafting.ingot_to_plate_2/"+i, ingot[1], [
+        [ingot[0], ingot[0], ingot[0]]
+    ]);
 }
 
 var ingotsToRods as IItemStack[][] = [
@@ -187,7 +190,21 @@ var ingotsToBlocks as IItemStack[][] = [
     [<item:emendatusenigmatica:copper_ingot>, <item:emendatusenigmatica:copper_block>],
     [<item:minecraft:gold_ingot>, <item:minecraft:gold_block>],
     [<item:minecraft:iron_ingot>, <item:minecraft:iron_block>],
+    [<item:mekanism:ingot_refined_obsidian>, <item:mekanism:block_refined_obsidian>],
+    [<item:mekanism:ingot_refined_glowstone>, <item:mekanism:block_refined_glowstone>],
 ];
+
+craftingTable.addShaped("recipe.crafting.mekanism.refined_obsidian/ingot_to_block", <item:mekanism:block_refined_obsidian>, [
+    [<item:mekanism:ingot_refined_obsidian>, <item:mekanism:ingot_refined_obsidian>, <item:mekanism:ingot_refined_obsidian>],
+    [<item:mekanism:ingot_refined_obsidian>, <item:mekanism:ingot_refined_obsidian>, <item:mekanism:ingot_refined_obsidian>],
+    [<item:mekanism:ingot_refined_obsidian>, <item:mekanism:ingot_refined_obsidian>, <item:mekanism:ingot_refined_obsidian>]
+]);
+
+craftingTable.addShaped("recipe.crafting.mekanism.refined_glowstone/ingot_to_block", <item:mekanism:block_refined_glowstone>, [
+    [<item:mekanism:ingot_refined_glowstone>, <item:mekanism:ingot_refined_glowstone>, <item:mekanism:ingot_refined_glowstone>],
+    [<item:mekanism:ingot_refined_glowstone>, <item:mekanism:ingot_refined_glowstone>, <item:mekanism:ingot_refined_glowstone>],
+    [<item:mekanism:ingot_refined_glowstone>, <item:mekanism:ingot_refined_glowstone>, <item:mekanism:ingot_refined_glowstone>]
+]);
 
 var pow_thermal_packing = 2400;
 for i, ingot in ingotsToBlocks {
@@ -195,3 +212,36 @@ for i, ingot in ingotsToBlocks {
     <recipetype:thermal:press>.addRecipe("recipe.thermal.unpacking/block_to_ingot/"+i, [ingot[0]*9], <fluid:minecraft:empty>, [ingot[1], <item:thermal:press_unpacking_die>], pow_thermal_packing);
 }
 
+var pow_thermal_pulverizer = 800;
+var ingotsToDusts as IItemStack[][] = [
+    [<item:emendatusenigmatica:brass_ingot>, <item:emendatusenigmatica:brass_dust>],
+    [<item:emendatusenigmatica:electrum_ingot>, <item:emendatusenigmatica:electrum_dust>],
+    [<item:emendatusenigmatica:steel_ingot>, <item:emendatusenigmatica:steel_dust>],
+    [<item:emendatusenigmatica:bronze_ingot>, <item:emendatusenigmatica:bronze_dust>],
+    [<item:emendatusenigmatica:constantan_ingot>, <item:emendatusenigmatica:constantan_dust>],
+    [<item:emendatusenigmatica:invar_ingot>, <item:emendatusenigmatica:invar_dust>],
+    [<item:emendatusenigmatica:signalum_ingot>, <item:emendatusenigmatica:signalum_dust>],
+    [<item:emendatusenigmatica:lumium_ingot>, <item:emendatusenigmatica:lumium_dust>],
+    [<item:emendatusenigmatica:enderium_ingot>, <item:emendatusenigmatica:enderium_dust>],
+    [<item:emendatusenigmatica:cast_iron_ingot>, <item:emendatusenigmatica:cast_iron_dust>],
+
+    [<item:emendatusenigmatica:uranium_ingot>, <item:emendatusenigmatica:uranium_dust>],
+    [<item:emendatusenigmatica:osmium_ingot>, <item:emendatusenigmatica:osmium_dust>],
+    [<item:emendatusenigmatica:zinc_ingot>, <item:emendatusenigmatica:zinc_dust>],
+    [<item:emendatusenigmatica:tin_ingot>, <item:emendatusenigmatica:tin_dust>],
+    [<item:emendatusenigmatica:nickel_ingot>, <item:emendatusenigmatica:nickel_dust>],
+    [<item:emendatusenigmatica:lead_ingot>, <item:emendatusenigmatica:lead_dust>],
+    [<item:emendatusenigmatica:silver_ingot>, <item:emendatusenigmatica:silver_dust>],
+    [<item:emendatusenigmatica:aluminum_ingot>, <item:emendatusenigmatica:aluminum_dust>],
+    [<item:emendatusenigmatica:copper_ingot>, <item:emendatusenigmatica:copper_dust>],
+    [<item:minecraft:gold_ingot>, <item:emendatusenigmatica:gold_dust>],
+    [<item:minecraft:iron_ingot>, <item:emendatusenigmatica:iron_dust>],
+    [<item:minecraft:diamond>, <item:emendatusenigmatica:diamond_dust>],
+    [<item:minecraft:ender_pearl>, <item:emendatusenigmatica:ender_dust>],
+    [<item:emendatusenigmatica:fluorite_gem>, <item:emendatusenigmatica:fluorite_dust>]
+];
+
+for i, ingot in ingotsToDusts{
+    <recipetype:thermal:pulverizer>.addRecipe("recipe.thermal.pulverizer.ingot_to_dust/"+i, [ingot[1]] , ingot[0], 0, pow_thermal_pulverizer);
+    <recipetype:mekanism:crushing>.addRecipe("recipe.mekanism.crushing.ingot_to_dust/"+i, ingot[0], ingot[1]);
+}

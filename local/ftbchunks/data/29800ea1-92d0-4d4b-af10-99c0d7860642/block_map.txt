@@ -60,12 +60,14 @@
 #2DC94B minecraft:furnace
 #E0C28B createaddition:furnace_burner
 #18B58D create:furnace_engine
+#9DD8EC immersiveengineering:furnace_heater
 #AC063E mekanismgenerators:gas_burning_generator
 #F832D7 create:gearshift
 #2F436F minecraft:glass
 #E8BA49 ironchest:gold_chest
 #3F84B7 minecraft:grass_block
 #87B5C3 create:hand_crank
+#027DA5 createaddition:heater
 #B6A923 immersiveengineering:heavy_engineering
 #1A0827 minecraft:hopper
 #099C69 storagenetwork:inventory

@@ -118,6 +118,32 @@ craftingTable.addShaped("recipe.crafting.immersiveengineering.conveyor_extract",
 craftingTable.removeRecipe(<item:immersiveengineering:cloche>);
 craftingTable.addShaped("recipe.crafting.immersiveengineering.cloche", <item:immersiveengineering:cloche>, [
     [<tag:items:forge:glass>, <item:emendatusenigmatica:lumium_gear>, <tag:items:forge:glass>],
-    [<tag:items:forge:glass>, <item:minecraft:air>, <tag:items:forge:glass>],
+    [<tag:items:forge:glass>, <item:create:electron_tube>, <tag:items:forge:glass>],
     [<item:emendatusenigmatica:aluminum_gear>, <item:immersiveengineering:crate>, <item:emendatusenigmatica:aluminum_gear>]
+]);
+
+craftingTable.removeRecipe(<item:createaddition:heater>);
+craftingTable.addShaped("recipe.crafting.immersiveengineering.furnace_heater", <item:immersiveengineering:furnace_heater>, [
+    [<item:minecraft:iron_ingot>, <item:emendatusenigmatica:copper_ingot>, <item:minecraft:iron_ingot>],
+    [<item:emendatusenigmatica:copper_ingot>, <item:immersiveengineering:coil_lv>, <item:emendatusenigmatica:copper_ingot>],
+    [<item:minecraft:iron_ingot>, <item:minecraft:redstone>, <item:minecraft:iron_ingot>]
+]);
+
+craftingTable.removeRecipe(<item:immersiveengineering:blastfurnace_preheater>);
+craftingTable.addShaped("recipe.crafting.immersiveengineering.blastfurnace_preheater", <item:immersiveengineering:blastfurnace_preheater>, [
+    [<item:immersiveengineering:sheetmetal_iron>, <item:immersiveengineering:sheetmetal_iron>, <item:immersiveengineering:sheetmetal_iron>],
+    [<item:immersiveengineering:sheetmetal_iron>, <item:minecraft:air>, <item:immersiveengineering:sheetmetal_iron>],
+    [<item:immersiveengineering:sheetmetal_iron>, <item:immersiveengineering:furnace_heater>, <item:immersiveengineering:sheetmetal_iron>]
+]);
+
+craftingTable.removeRecipe(<item:immersiveengineering:hemp_fabric>);
+craftingTable.addShaped("recipe.crafting.immersiveengineering.hemp_fabric_1", <item:immersiveengineering:hemp_fabric>, [
+    [<item:minecraft:air>, <item:immersiveengineering:hemp_fiber>, <item:minecraft:air>],
+    [<item:immersiveengineering:hemp_fiber>, <item:minecraft:stick>, <item:immersiveengineering:hemp_fiber>],
+    [<item:minecraft:air>, <item:immersiveengineering:hemp_fiber>, <item:minecraft:air>]
+]);
+craftingTable.addShaped("recipe.crafting.immersiveengineering.hemp_fabric_2", <item:immersiveengineering:hemp_fabric>*2, [
+    [<item:minecraft:air>, <item:immersiveengineering:hemp_fiber>, <item:minecraft:air>],
+    [<item:immersiveengineering:hemp_fiber>, <item:immersiveengineering:stick_treated>, <item:immersiveengineering:hemp_fiber>],
+    [<item:minecraft:air>, <item:immersiveengineering:hemp_fiber>, <item:minecraft:air>]
 ]);

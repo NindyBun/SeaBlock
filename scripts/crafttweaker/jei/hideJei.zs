@@ -53,7 +53,7 @@ mods.jei.JEI.hideItem(<item:immersiveengineering:stick_iron>);
 mods.jei.JEI.hideItem(<item:immersiveengineering:stick_steel>);
 mods.jei.JEI.hideItem(<item:immersiveengineering:stick_aluminum>);
 
-mods.jei.JEI.hideRegex(".*ore");
+mods.jei.JEI.hideRegex(".*_ore");
 mods.jei.JEI.hideRegex(".*crushed.*");
 mods.jei.JEI.hideRegex("createaddition:.*_rod");
 mods.jei.JEI.hideRegex("createaddition:.*_sheet");
@@ -85,7 +85,7 @@ mods.jei.JEI.hideRegex("mekanism:shard.*");
 mods.jei.JEI.hideRegex("mekanism:crystal.*");
 mods.jei.JEI.hideRegex("mekanism:dirty_dust.*");
 
-var mekanismSave as string[] = [
+var mekanismDontSave as string[] = [
     "mekanism:nugget_uranium",
     "mekanism:nugget_lead",
     "mekanism:nugget_tin",
@@ -124,7 +124,7 @@ var mekanismSave as string[] = [
     "mekanism:dust_copper",
 ];
 mods.jei.JEI.hideMod("mekanism", (name as string) => {
-    return !(name in mekanismSave);
+    return !(name in mekanismDontSave);
 });
 
 craftingTable.removeByName("emendatusenigmatica:enigmatic_fortunizer");
@@ -230,6 +230,7 @@ for ore in ores {
     if ("thermal:compat/create/smelter_create_"+ore+"_ore" in listOfRecipes) { <recipetype:thermal:smelter>.removeByName("thermal:compat/create/smelter_create_"+ore+"_ore"); }
 
     if ("mekanism:processing/"+ore+"/shard/from_ore" in listOfRecipes) { <recipetype:mekanism:injecting>.removeByName("mekanism:processing/"+ore+"/shard/from_ore"); }
+    if ("mekanism:processing/"+ore+"/shard/from_crystal" in listOfRecipes) { <recipetype:mekanism:injecting>.removeByName("mekanism:processing/"+ore+"/shard/from_crystal"); }
     if ("mekanism:processing/"+ore+"/dust/from_ore" in listOfRecipes) { <recipetype:mekanism:enriching>.removeByName("mekanism:processing/"+ore+"/dust/from_ore"); }
     if ("mekanism:processing/"+ore+"/clump/from_ore" in listOfRecipes) { <recipetype:mekanism:purifying>.removeByName("mekanism:processing/"+ore+"/clump/from_ore"); }
     if ("mekanism:processing/"+ore+"/dust/from_ingot" in listOfRecipes) { <recipetype:mekanism:crushing>.removeByName("mekanism:processing/"+ore+"/dust/from_ingot"); }
