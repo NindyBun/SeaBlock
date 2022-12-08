@@ -1,0 +1,456 @@
+{
+  "name": "mega_alloyer",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "recipes": [
+    {
+      "uid": "tin_silver_alloy",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": {
+                "item": "emendatusenigmatica:tin_ingot"
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:silver_ingot"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": {
+                "item": "contenttweaker:tin_silver_alloy"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "lead_diamond_alloy",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": {
+                "item": "emendatusenigmatica:lead_ingot"
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "minecraft:diamond"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": {
+                "item": "contenttweaker:lead_diamond_alloy"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "copper_silver_alloy",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": {
+                "item": "emendatusenigmatica:copper_ingot"
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:silver_ingot"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": {
+                "item": "contenttweaker:copper_silver_alloy"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "invar",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": {
+                "item": "minecraft:iron_ingot"
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:nickel_ingot"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": {
+                "item": "emendatusenigmatica:invar_ingot"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "cast_iron",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "minecraft:iron_ingot"
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": {
+                "item": "minecraft:coal"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:cast_iron_ingot"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "steel",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "minecraft:iron_ingot"
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:coal_coke"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:steel_ingot"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "electrum",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:silver_ingot"
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "minecraft:gold_ingot"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": {
+                "item": "emendatusenigmatica:electrum_ingot"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "constantan",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:copper_ingot"
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:nickel_ingot"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": {
+                "item": "emendatusenigmatica:constantan_ingot"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "brass",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:copper_ingot"
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:zinc_ingot"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": {
+                "item": "emendatusenigmatica:brass_ingot"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "bronze",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": {
+                "item": "emendatusenigmatica:copper_ingot"
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:tin_ingot"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": {
+                "item": "emendatusenigmatica:bronze_ingot"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

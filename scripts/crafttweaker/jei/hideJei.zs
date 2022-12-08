@@ -127,6 +127,19 @@ mods.jei.JEI.hideMod("mekanism", (name as string) => {
     return !(name in mekanismDontSave);
 });
 
+var hide as IItemStack[] = [
+    <item:contenttweaker:item_out>,
+    <item:contenttweaker:item_in>,
+    <item:contenttweaker:fluid_in>,
+    <item:contenttweaker:energy_in>,
+    <item:contenttweaker:fluid_out>,
+    <item:contenttweaker:base>,
+    <item:contenttweaker:create_in>,
+];
+for item in hide {
+    mods.jei.JEI.hideItem(item);
+}
+
 craftingTable.removeByName("emendatusenigmatica:enigmatic_fortunizer");
 <recipetype:mekanism:crushing>.removeByName("mekanism:processing/netherite/ingot_to_dust");
 <recipetype:mekanism:combining>.removeByName("mekanism:processing/netherite/dust_to_ancient_debris");

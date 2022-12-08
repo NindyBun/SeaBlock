@@ -1,0 +1,44 @@
+{
+  "name": "5061ca1a-e911-4b3c-ada4-5dffe23af2ee",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "fuelThreshold": 100,
+  "recipes": [
+    {
+      "uid": "7d4b52ab-f911-4a5b-9a98-2fec5fd13efe",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "minecraft:iron_ingot"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:copper_ingot"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

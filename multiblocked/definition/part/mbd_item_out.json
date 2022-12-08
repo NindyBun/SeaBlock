@@ -1,0 +1,81 @@
+{
+  "version": 2,
+  "location": "mbd:item_out",
+  "traits": {
+    "item": [
+      {
+        "cIO": 1,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "0",
+        "x": 70,
+        "y": 62,
+        "autoIO": true
+      },
+      {
+        "cIO": 1,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "1",
+        "x": 88,
+        "y": 62,
+        "autoIO": true
+      },
+      {
+        "cIO": 1,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "2",
+        "x": 70,
+        "y": 80,
+        "autoIO": true
+      },
+      {
+        "cIO": 1,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "3",
+        "x": 88,
+        "y": 80,
+        "autoIO": true
+      }
+    ],
+    "background": "multiblocked:textures/item_bus_gui.png"
+  },
+  "properties": {
+    "rotationState": "NONE",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasDynamicShape": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 6.0,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "friction": 0.6,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked.all"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "contenttweaker:item_out"
+        },
+        "type": "blockstate",
+        "postRenderer": true
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "canShared": true
+}

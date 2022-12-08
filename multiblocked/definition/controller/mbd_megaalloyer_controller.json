@@ -1,0 +1,157 @@
+{
+  "version": 2,
+  "location": "mbd:megaalloyer_controller",
+  "traits": {},
+  "properties": {
+    "rotationState": "NONE",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasDynamicShape": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 6.0,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "friction": 0.6,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked.all"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "immersiveengineering:rs_engineering",
+          "meta": 0
+        },
+        "type": "blockstate",
+        "postRenderer": true
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "mega_alloyer",
+  "basePattern": {
+    "structureDir": [
+      "RIGHT",
+      "UP",
+      "FRONT"
+    ],
+    "pattern": [
+      [
+        "AAA",
+        "BAB",
+        "   "
+      ],
+      [
+        "CDC",
+        "E@E",
+        " F "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "blocks": [
+          {
+            "id": "immersiveengineering:sheetmetal_steel"
+          }
+        ],
+        "type": "blocks"
+      },
+      "controller": {
+        "location": "mbd:megaalloyer_controller",
+        "type": "component"
+      },
+      "B": {
+        "blocks": [
+          {
+            "id": "mbd:item_in"
+          }
+        ],
+        "type": "blocks",
+        "io": "IN"
+      },
+      "C": {
+        "blocks": [
+          {
+            "id": "immersiveengineering:heavy_engineering"
+          }
+        ],
+        "type": "blocks"
+      },
+      "D": {
+        "blocks": [
+          {
+            "id": "mbd:item_out"
+          }
+        ],
+        "type": "blocks",
+        "io": "OUT"
+      },
+      "E": {
+        "blocks": [
+          {
+            "id": "immersiveengineering:steel_fence"
+          }
+        ],
+        "type": "blocks"
+      },
+      "F": {
+        "blocks": [
+          {
+            "id": "mbd:energy_in"
+          }
+        ],
+        "type": "blocks",
+        "io": "IN"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ]
+    }
+  }
+}

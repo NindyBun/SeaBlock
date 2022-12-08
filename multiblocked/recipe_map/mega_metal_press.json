@@ -1,0 +1,5018 @@
+{
+  "name": "mega_metal_press",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "recipes": [
+    {
+      "uid": "electrum2wire_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:electrum_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_wire"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": {
+                "item": "immersiveengineering:wire_electrum"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "steel2wire_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:steel_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_wire"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": {
+                "item": "immersiveengineering:wire_steel"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "lead2wire_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:lead_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_wire"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": {
+                "item": "immersiveengineering:wire_lead"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "aluminum2wire_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:aluminum_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_wire"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": {
+                "item": "immersiveengineering:wire_aluminum"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "copper2wire_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:copper_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_wire"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": {
+                "item": "immersiveengineering:wire_copper"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "gold2wire_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "minecraft:gold_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_wire"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": {
+                "item": "createaddition:gold_wire"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "brass2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:brass_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:brass_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "electrum2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:electrum_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:electrum_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "steel2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:steel_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:steel_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "bronze2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:bronze_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:bronze_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "constantan2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:constantan_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:constantan_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "invar2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:invar_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:invar_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "signalum2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:signalum_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:signalum_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "lumium2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:lumium_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:lumium_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "enderium2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:enderium_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:enderium_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "cast_iron2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:cast_iron_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:cast_iron_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "uranium2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:uranium_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:copper_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "osmium2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:osmium_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:osmium_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "zinc2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:zinc_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:zinc_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "tin2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:tin_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:tin_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "nickel2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:nickel_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:nickel_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "lead2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:lead_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:lead_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "silver2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:silver_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:silver_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "aluminum2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:aluminum_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:aluminum_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "copper2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:copper_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:copper_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "gold2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "minecraft:gold_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:gold_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "iron2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "minecraft:iron_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:iron_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+{
+      "uid": "brass2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:brass_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:brass_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "electrum2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:electrum_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:electrum_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "steel2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:steel_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:steel_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "bronze2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:bronze_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:bronze_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "constantan2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:constantan_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:constantan_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "invar2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:invar_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:invar_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "signalum2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:signalum_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:signalum_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "lumium2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:lumium_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:lumium_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "enderium2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:enderium_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:enderium_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "cast_iron2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:cast_iron_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:cast_iron_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "uranium2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:uranium_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:copper_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "osmium2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:osmium_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:osmium_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "zinc2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:zinc_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:zinc_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "tin2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:tin_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:tin_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "nickel2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:nickel_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:nickel_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "lead2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:lead_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:lead_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "silver2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:silver_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:silver_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "aluminum2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:aluminum_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:aluminum_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "copper2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:copper_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:copper_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "gold2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "minecraft:gold_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:gold_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "iron2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "minecraft:iron_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:iron_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    
+
+
+
+
+
+
+    {
+      "uid": "brass2gear_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": {
+                "item": "emendatusenigmatica:brass_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_gear"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:brass_gear"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "electrum2gear_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": {
+                "item": "emendatusenigmatica:electrum_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_gear"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:electrum_gear"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "steel2gear_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": {
+                "item": "emendatusenigmatica:steel_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_gear"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:steel_gear"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "bronze2gear_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": {
+                "item": "emendatusenigmatica:bronze_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_gear"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:bronze_gear"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "constantan2gear_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": {
+                "item": "emendatusenigmatica:constantan_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_gear"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:constantan_gear"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "invar2gear_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": {
+                "item": "emendatusenigmatica:invar_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_gear"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:invar_gear"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "signalum2gear_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": {
+                "item": "emendatusenigmatica:signalum_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_gear"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:signalum_gear"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "lumium2gear_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": {
+                "item": "emendatusenigmatica:lumium_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_gear"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:lumium_gear"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "enderium2gear_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": {
+                "item": "emendatusenigmatica:enderium_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_gear"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:enderium_gear"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "cast_iron2gear_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": {
+                "item": "emendatusenigmatica:cast_iron_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_gear"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:cast_iron_gear"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "uranium2gear_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": {
+                "item": "emendatusenigmatica:uranium_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_gear"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:copper_gear"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "osmium2gear_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": {
+                "item": "emendatusenigmatica:osmium_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_gear"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:osmium_gear"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "zinc2gear_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": {
+                "item": "emendatusenigmatica:zinc_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_gear"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:zinc_gear"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "tin2gear_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": {
+                "item": "emendatusenigmatica:tin_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_gear"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:tin_gear"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "nickel2gear_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": {
+                "item": "emendatusenigmatica:nickel_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_gear"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:nickel_gear"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "lead2gear_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": {
+                "item": "emendatusenigmatica:lead_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_gear"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:lead_gear"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "silver2gear_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": {
+                "item": "emendatusenigmatica:silver_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_gear"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:silver_gear"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "aluminum2gear_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": {
+                "item": "emendatusenigmatica:aluminum_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_gear"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:aluminum_gear"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "copper2gear_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": {
+                "item": "emendatusenigmatica:copper_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_gear"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:copper_gear"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "gold2gear_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": {
+                "item": "minecraft:gold_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_gear"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:gold_gear"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "iron2gear_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": {
+                "item": "minecraft:iron_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_gear"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:iron_gear"
+              }
+            }
+          }
+        ]
+      }
+    },
+
+
+
+
+
+    {
+      "uid": "brass2rod_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:brass_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_rod"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": {
+                "item": "emendatusenigmatica:brass_rod"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "electrum2rod_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:electrum_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_rod"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": {
+                "item": "emendatusenigmatica:electrum_rod"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "steel2rod_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:steel_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_rod"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": {
+                "item": "emendatusenigmatica:steel_rod"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "bronze2rod_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:bronze_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_rod"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": {
+                "item": "emendatusenigmatica:bronze_rod"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "constantan2rod_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:constantan_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_rod"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": {
+                "item": "emendatusenigmatica:constantan_rod"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "invar2rod_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:invar_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_rod"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": {
+                "item": "emendatusenigmatica:invar_rod"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "signalum2rod_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:signalum_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_rod"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": {
+                "item": "emendatusenigmatica:signalum_rod"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "lumium2rod_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:lumium_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_rod"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": {
+                "item": "emendatusenigmatica:lumium_rod"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "enderium2rod_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:enderium_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_rod"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": {
+                "item": "emendatusenigmatica:enderium_rod"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "cast_iron2rod_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:cast_iron_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_rod"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": {
+                "item": "emendatusenigmatica:cast_iron_rod"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "uranium2rod_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:uranium_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_rod"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": {
+                "item": "emendatusenigmatica:copper_rod"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "osmium2rod_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:osmium_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_rod"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": {
+                "item": "emendatusenigmatica:osmium_rod"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "zinc2rod_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:zinc_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_rod"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": {
+                "item": "emendatusenigmatica:zinc_rod"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "tin2rod_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:tin_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_rod"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": {
+                "item": "emendatusenigmatica:tin_rod"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "nickel2rod_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:nickel_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_rod"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": {
+                "item": "emendatusenigmatica:nickel_rod"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "lead2rod_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:lead_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_rod"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": {
+                "item": "emendatusenigmatica:lead_rod"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "silver2rod_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:silver_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_rod"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": {
+                "item": "emendatusenigmatica:silver_rod"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "aluminum2rod_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:aluminum_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_rod"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": {
+                "item": "emendatusenigmatica:aluminum_rod"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "copper2rod_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:copper_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_rod"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": {
+                "item": "emendatusenigmatica:copper_rod"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "gold2rod_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "minecraft:gold_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_rod"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": {
+                "item": "emendatusenigmatica:gold_rod"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "iron2rod_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "minecraft:iron_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_rod"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": {
+                "item": "emendatusenigmatica:iron_rod"
+              }
+            }
+          }
+        ]
+      }
+    },
+
+
+
+
+
+    {
+      "uid": "brass2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:brass_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:brass_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "electrum2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:electrum_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:electrum_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "steel2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:steel_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:steel_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "bronze2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:bronze_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:bronze_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "constantan2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:constantan_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:constantan_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "invar2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:invar_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:invar_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "signalum2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:signalum_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:signalum_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "lumium2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:lumium_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:lumium_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "enderium2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:enderium_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:enderium_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "cast_iron2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:cast_iron_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:cast_iron_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "uranium2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:uranium_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:copper_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "osmium2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:osmium_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:osmium_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "zinc2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:zinc_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:zinc_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "tin2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:tin_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:tin_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "nickel2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:nickel_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:nickel_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "lead2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:lead_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:lead_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "silver2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:silver_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:silver_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "aluminum2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:aluminum_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:aluminum_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "copper2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:copper_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:copper_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "gold2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "minecraft:gold_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:gold_plate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "iron2plate_FE",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "minecraft:iron_ingot"
+              }
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:mold_plate"
+              }
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:iron_plate"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

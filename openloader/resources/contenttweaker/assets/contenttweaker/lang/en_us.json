@@ -72,5 +72,17 @@
     "item.contenttweaker.rare_geode": "Rare Geode",
 
     "item.contenttweaker.clay_rod_cast": "Clay Rod Mold",
-    "item.contenttweaker.rod_cast": "Rod Mold"
+    "item.contenttweaker.rod_cast": "Rod Mold",
+
+    "item.contenttweaker.empty_ender_pearl": "Ender Pearl Vessle",
+    "item.contenttweaker.capsule": "Capsule",
+
+    "block.mbd.megametalpress_controller": "Mega Metal Press Controller",
+    "block.mbd.sciencelab_controller": "Science Lab Controller",
+    "block.mbd.item_in": "Item Input Bus",
+    "block.mbd.item_out": "Item Output Bus",
+    "block.mbd.fluid_in": "Fluid Input Hatch",
+    "block.mbd.fluid_out": "Fluid Output Hatch",
+    "block.mbd.energy_in": "Energy Input Hatch",
+    "block.mbd.create_in": "Create Stress Input Box"
 }

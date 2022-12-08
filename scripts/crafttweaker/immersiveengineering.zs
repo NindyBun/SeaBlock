@@ -46,8 +46,6 @@ craftingTable.addShaped("recipe.crafting.immersivepetroleum.asphalt2", <item:imm
     [<tag:items:forge:slag>, <tag:items:forge:bitumen>, <tag:items:forge:slag>]
 ]);
 
-<recipetype:immersiveengineering:bottling_machine>.addRecipe("recipe.immersiveengineering.bottling.clay", <tag:items:forge:sand>, <tag:fluids:minecraft:water> * 1000, <item:minecraft:clay>);
-
 craftingTable.removeRecipe(<item:immersiveengineering:blueprint>.withTag({blueprint: "components"}));
 craftingTable.addShaped("recipe.crafting.immersiveengineering.blueprint_1", <item:immersiveengineering:blueprint>.withTag({blueprint: "components"}), [
     [<tag:items:forge:ingots/iron>, <tag:items:forge:ingots/copper>, <tag:items:forge:dusts/redstone>], 
@@ -147,3 +145,11 @@ craftingTable.addShaped("recipe.crafting.immersiveengineering.hemp_fabric_2", <i
     [<item:immersiveengineering:hemp_fiber>, <item:immersiveengineering:stick_treated>, <item:immersiveengineering:hemp_fiber>],
     [<item:minecraft:air>, <item:immersiveengineering:hemp_fiber>, <item:minecraft:air>]
 ]);
+
+craftingTable.removeRecipe(<item:immersiveengineering:wirecoil_copper_ins>);
+craftingTable.addShapeless("recipe.crafting.immersiveengineering.wirecoil_copper_ins", <item:immersiveengineering:wirecoil_copper_ins>, [<item:immersiveengineering:wirecoil_copper>, <item:immersiveengineering:hemp_fiber>]);
+craftingTable.addShapeless("recipe.crafting.immersiveengineering.wirecoil_copper", <item:immersiveengineering:wirecoil_copper>, [<item:immersiveengineering:wirecoil_copper_ins>]);
+
+craftingTable.removeRecipe(<item:immersiveengineering:wirecoil_electrum_ins>);
+craftingTable.addShapeless("recipe.crafting.immersiveengineering.wire_electrum_ins", <item:immersiveengineering:wirecoil_electrum_ins>, [<item:immersiveengineering:wirecoil_electrum>, <item:immersiveengineering:hemp_fiber>]);
+craftingTable.addShapeless("recipe.crafting.immersiveengineering.wirecoil_electrum", <item:immersiveengineering:wirecoil_electrum>, [<item:immersiveengineering:wirecoil_electrum_ins>]);

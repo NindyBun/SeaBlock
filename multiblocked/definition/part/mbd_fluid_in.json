@@ -1,0 +1,58 @@
+{
+  "version": 2,
+  "location": "mbd:fluid_in",
+  "traits": {
+    "background": "multiblocked:textures/fluid_hatch_gui.png",
+    "fluid": [
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "0",
+        "x": 79,
+        "y": 71,
+        "autoIO": false,
+        "tC": 64000,
+        "w": 18,
+        "h": 18,
+        "fillDir": "ALWAYS_FULL"
+      }
+    ]
+  },
+  "properties": {
+    "rotationState": "NONE",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasDynamicShape": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 6.0,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "friction": 0.6,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked.all"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "contenttweaker:fluid_in"
+        },
+        "type": "blockstate",
+        "postRenderer": true
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "canShared": true
+}

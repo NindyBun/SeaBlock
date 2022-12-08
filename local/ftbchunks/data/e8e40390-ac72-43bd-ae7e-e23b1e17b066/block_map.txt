@@ -1,0 +1,9 @@
+#4EB6EF multiblocked:blueprint_table
+#325ABD multiblocked:blueprint_table_part
+#F522F4 minecraft:chest
+#5EF325 mod_id:component_id
+#80497A minecraft:dirt
+#35DAAD mbd:energy_in
+#3F84B7 minecraft:grass_block
+#55C242 mbd:item_in
+#67A093 mbd:item_out

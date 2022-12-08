@@ -1,0 +1,318 @@
+{
+  "name": "advanced_science_lab",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "recipes": [
+    {
+      "uid": "red_liquid",
+      "duration": 600,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:iron_gear"
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:copper_plate"
+              }
+            }
+          }
+        ],
+        "create_stress": [
+          {
+            "chance": 1.0,
+            "content": 512.0
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"minecraft:water\",Amount:1000}"
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"contenttweaker:liquid_red\",Amount:1000}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "green_liquid",
+      "duration": 1200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:conveyor_basic"
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:steel_gear"
+              }
+            }
+          }
+        ],
+        "create_stress": [
+          {
+            "chance": 1.0,
+            "content": 512.0
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"minecraft:water\",Amount:1000}"
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"contenttweaker:liquid_green\",Amount:1000}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "blue_liquid",
+      "duration": 2400,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "immersiveengineering:rs_engineering"
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:invar_gear"
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "create:precision_mechanism"
+              }
+            }
+          }
+        ],
+        "create_stress": [
+          {
+            "chance": 1.0,
+            "content": 512.0
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"minecraft:water\",Amount:1000}"
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"contenttweaker:liquid_blue\",Amount:1000}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "purple_liquid",
+      "duration": 3600,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:lumium_gear"
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:signalum_gear"
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "emendatusenigmatica:enderium_gear"
+              }
+            }
+          }
+        ],
+        "create_stress": [
+          {
+            "chance": 1.0,
+            "content": 512.0
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"minecraft:water\",Amount:1000}"
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"contenttweaker:liquid_purple\",Amount:1000}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "yellow_liquid",
+      "duration": 4800,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "mekanism:hdpe_pellet"
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "mekanism:alloy_reinforced"
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "mekanism:yellow_cake_uranium"
+              }
+            }
+          }
+        ],
+        "create_stress": [
+          {
+            "chance": 1.0,
+            "content": 512.0
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"minecraft:water\",Amount:1000}"
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"contenttweaker:liquid_yellow\",Amount:1000}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "white_liquid",
+      "duration": 6000,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "mekanism:pellet_polonium"
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "mekanism:reprocessed_fissile_fragment"
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "mekanism:pellet_antimatter"
+              }
+            }
+          }
+        ],
+        "create_stress": [
+          {
+            "chance": 1.0,
+            "content": 512.0
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"minecraft:water\",Amount:1000}"
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"contenttweaker:liquid_white\",Amount:1000}"
+          }
+        ]
+      }
+    }
+  ]
+}

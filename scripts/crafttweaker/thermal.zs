@@ -10,8 +10,6 @@
 <recipetype:thermal:pyrolyzer>.addRecipe("recipe.thermal.pyrolyzer.bitumen", [<item:immersiveengineering:coal_coke>, <item:thermal:tar>%50], <fluid:thermal:heavy_oil>*50, <item:thermal:bitumen>, 4000);
 <recipetype:thermal:pyrolyzer>.addRecipe("recipe.thermal.pyrolyzer.logs", [<item:minecraft:charcoal>], <fluid:immersiveengineering:creosote>*125, <tag:items:minecraft:logs>, 2000);
 
-<recipetype:thermal:bottler>.addRecipe("recipe.thermal.bottler.clay", <item:minecraft:clay>, <tag:items:minecraft:sand>, <tag:fluids:minecraft:water>*1000, 400);
-
 craftingTable.removeRecipe(<item:thermal:machine_frame>);
 craftingTable.addShaped("recipe.crafting.thermal.machine_frame", <item:thermal:machine_frame>, [
     [<item:immersiveengineering:treated_wood_horizontal>, <item:immersiveengineering:component_iron>, <item:immersiveengineering:treated_wood_horizontal>],
